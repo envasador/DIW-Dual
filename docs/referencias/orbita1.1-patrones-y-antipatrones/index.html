@@ -16,7 +16,7 @@
     
     
       
-        <title>Unidad de Trabajo 7: "Implantación del SEO en una Aplicación Web" - Diseño de Interfaces Web - Apuntes y referencias</title>
+        <title>Órbita 1: Diseñar para que funcione Introducción - Diseño de Interfaces Web - Apuntes y referencias</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#unidad-de-trabajo-7-implantacion-del-seo-en-una-aplicacion-web" class="md-skip">
+        <a href="#orbita-1-disenar-para-que-funcione-introduccion" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Unidad de Trabajo 7: "Implantación del SEO en una Aplicación Web"
+              Órbita 1: Diseñar para que funcione Introducción
             
           </span>
         </div>
@@ -217,7 +217,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../orbita1-disenar-para-que-funcione/" class="md-tabs__link">
+      <a href="../orbita1-disenar-para-que-funcione.md - orbita1.1-patrones-y-antipatrones.md - orbita1.2-arquitectura-de-la-informacion.md" class="md-tabs__link">
         
   
   
@@ -299,7 +299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../orbita1-disenar-para-que-funcione/" class="md-nav__link">
+      <a href="../orbita1-disenar-para-que-funcione.md - orbita1.1-patrones-y-antipatrones.md - orbita1.2-arquitectura-de-la-informacion.md" class="md-nav__link">
         
   
   
@@ -336,74 +336,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-introduccion-al-seo" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Introducción al SEO
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-seo-on-page-con-html" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. SEO On-page con HTML
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2. SEO On-page con HTML">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#3-seo-on-page-con-css" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. SEO On-page con CSS
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-seo-on-page-con-javascript" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. SEO On-page con JavaScript
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-seo-tecnico" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. SEO Técnico
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#6-seo-off-page" class="md-nav__link">
-    <span class="md-ellipsis">
-      6. SEO Off-page
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -420,180 +352,82 @@
 
 
 
-<h1 id="unidad-de-trabajo-7-implantacion-del-seo-en-una-aplicacion-web">Unidad de Trabajo 7: <strong>"Implantación del SEO en una Aplicación Web"</strong></h1>
-<h2 id="1-introduccion-al-seo">1. Introducción al SEO</h2>
-<p><strong>Qué es el SEO:</strong>
-Search Engine Optimization (SEO) es el conjunto de técnicas y estrategias que permiten mejorar la visibilidad de una página web en los motores de búsqueda como Google. El objetivo principal es posicionar una web entre los primeros resultados, incrementando el tráfico orgánico.</p>
-<p><strong>Tipos de SEO:</strong></p>
-<ul>
-<li><strong>SEO On-page:</strong> Optimización de contenido y estructura del sitio web.</li>
-<li><strong>SEO Off-page:</strong> Estrategias externas, como backlinks y redes sociales.</li>
-<li><strong>SEO Técnico:</strong> Optimizaciones que afectan al rastreo y rendimiento del sitio web.</li>
-</ul>
-<h2 id="2-seo-on-page-con-html">2. SEO On-page con HTML</h2>
-<p><strong>Buenas prácticas:</strong></p>
-<ul>
-<li>Utilizar etiquetas semánticas como <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, para estructurar el contenido.</li>
-<li>Incluir un <code>&lt;title&gt;</code> descriptivo en cada página.</li>
-<li>
-<p>Configurar <code>&lt;meta&gt;</code> con descripciones claras y precisas es crucial para el SEO. Estas etiquetas ayudan a los motores de búsqueda a entender el propósito y el contenido de la página. Por ejemplo:</p>
-</li>
-<li>
-<p><strong><code>&lt;meta name="description"&gt;</code></strong>: Proporciona un resumen breve del contenido de la página, que puede aparecer como fragmento en los resultados de búsqueda. Ejemplo:
-  <code>html
-  &lt;meta name="description" content="Tienda online con las mejores ofertas en tecnología y gadgets." /&gt;</code></p>
-</li>
-<li>
-<p><strong><code>&lt;meta name="keywords"&gt;</code></strong> (aunque en desuso en muchos motores de búsqueda): Permite incluir palabras clave relacionadas con el contenido.</p>
-</li>
-<li>
-<p><strong><code>&lt;meta charset&gt;</code></strong>: Define la codificación de caracteres para garantizar una correcta visualización del texto.
-  <code>html
-  &lt;meta charset="UTF-8" /&gt;</code></p>
-</li>
-</ul>
-<p>Incluir estas etiquetas correctamente puede mejorar tanto la visibilidad como la relevancia de la página en los resultados de búsqueda.
-- Usar <code>&lt;h1&gt;</code> para el título principal y <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code> para subsecciones.</p>
-<p><strong>Ejemplo:</strong></p>
-<pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;es&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;UTF-8&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-  &lt;meta name=&quot;description&quot; content=&quot;Aplicación web para gestionar tareas de manera eficiente&quot;&gt;
-  &lt;title&gt;Gestor de Tareas&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;header&gt;
-    &lt;h1&gt;Bienvenido a Gestor de Tareas&lt;/h1&gt;
-  &lt;/header&gt;
-  &lt;main&gt;
-    &lt;article&gt;
-      &lt;h2&gt;Organiza tu día&lt;/h2&gt;
-      &lt;p&gt;Con nuestra aplicación podrás priorizar y gestionar tus tareas fácilmente.&lt;/p&gt;
-    &lt;/article&gt;
-  &lt;/main&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<p><strong>URLs amigables:</strong></p>
-<ul>
-<li>Evitar URLs como <code>/productos?id=123</code>.</li>
-<li>Usar URLs claras y descriptivas como <code>/productos/zapatillas-deportivas</code>.</li>
-</ul>
-<p><strong>Canonical tags:</strong> Son etiquetas utilizadas para evitar problemas de contenido duplicado en un sitio web. Indican a los motores de búsqueda cuál es la URL preferida para una página específica, asegurando que el tráfico y la autoridad de SEO no se dividan entre múltiples URLs similares o idénticas. Por ejemplo, si un producto está disponible en varias URLs debido a parámetros de seguimiento o filtros, se puede usar una etiqueta canonical para consolidar la autoridad SEO en una sola URL.</p>
-<pre><code class="language-html">&lt;link rel=&quot;canonical&quot; href=&quot;https://miweb.com/productos/zapatillas-deportivas&quot;&gt;
-</code></pre>
-<h3 id="3-seo-on-page-con-css">3. SEO On-page con CSS</h3>
-<p><strong>Optimizaciones clave:</strong></p>
-<ul>
-<li>Reducir el tamaño de los archivos CSS usando minificación.</li>
-<li>Asegurarse de que los diseños sean <strong>responsive</strong>.</li>
-<li>Utilizar la propiedad <code>font-display: swap</code> en fuentes externas para mejorar la carga.</li>
-</ul>
-<p><strong>Ejemplo de fuentes externas:</strong></p>
-<pre><code class="language-css">@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('roboto.woff2') format('woff2');
-  font-display: swap;
-}
-</code></pre>
-<h3 id="4-seo-on-page-con-javascript">4. SEO On-page con JavaScript</h3>
-<p><strong>Precauciones:</strong></p>
-<ul>
-<li>Evitar bloquear el renderizado con scripts pesados.</li>
-<li>Garantizar que el contenido crítico sea accesible aunque el JavaScript no se ejecute.</li>
-</ul>
-<p><strong>Renderizado en el cliente vs servidor:</strong></p>
+<h1 id="orbita-1-disenar-para-que-funcione-introduccion"><strong>Órbita 1: Diseñar para que funcione</strong> <strong>Introducción</strong></h1>
+<p><img alt="" src="../assets/referencias.jpg" /></p>
+<h1 id="introduccion"><strong>Introducción</strong></h1>
+<p>El diseño de interfaces no consiste en hacer algo "bonito", sino en facilitar que el usuario logre sus objetivos de manera clara, rápida y sin fricciones. Esta órbita se centra en el diseño funcional: en pensar primero en tareas, flujos y estructura antes de aplicar cualquier decisión visual.</p>
+<p>La interfaz es el puente entre el usuario y el sistema. Si ese puente está mal diseñado, el usuario se pierde, se frustra o abandona. Por eso, antes de decidir colores o tipografías, debemos entender para qué sirve la interfaz, qué necesita el usuario, y cómo debe estar organizada la información.</p>
+<h1 id="1-ux-primero-ui-despues-pensar-en-funcionalidad"><strong>1. UX primero, UI después: pensar en funcionalidad</strong></h1>
+<p>En el mundo del diseño web y de interfaces, es muy fácil dejarse llevar por lo visual. Muchas veces empezamos un proyecto pensando en el logo, los colores corporativos o los estilos tipográficos. Pero esta no es la forma más eficaz de construir una interfaz que realmente funcione.</p>
+<p>El punto de partida siempre debe ser <strong>la funcionalidad</strong>: entender al usuario, identificar qué tareas necesita realizar, y diseñar una estructura que le permita lograr su objetivo sin frustración. Esto es lo que diferencia una interfaz atractiva pero inútil de una interfaz efectiva.</p>
+<h2 id="que-es-la-ux-y-en-que-se-diferencia-de-la-ui"><strong>¿Qué es la UX y en qué se diferencia de la UI?</strong></h2>
 <ul>
 <li>
-<p><strong>Cliente:</strong> React renderiza la aplicación en el navegador, lo que significa que el HTML y el contenido se generan dinámicamente en el dispositivo del usuario. Aunque esta técnica puede ofrecer una experiencia interactiva más rápida, no siempre es ideal para el SEO, ya que los motores de búsqueda podrían tener dificultades para interpretar el contenido generado dinámicamente.</p>
+<p><strong>UX (User Experience)</strong> es la experiencia completa que tiene una persona al interactuar con una app, web o sistema. Abarca desde la lógica de navegación hasta cómo se siente al usarla: ¿es fácil?, ¿consigue lo que busca?, ¿se siente frustrado o satisfecho?</p>
 </li>
 <li>
-<p><strong>Servidor (SSR):</strong> React genera HTML en el servidor y envía un documento completamente renderizado al cliente. Esto mejora significativamente el SEO, ya que el contenido completo está disponible para los motores de búsqueda al momento del rastreo. Una implementación común es el uso de frameworks como Next.js, que facilita el SSR y permite manejar tanto el rendimiento como el SEO de forma eficiente. Por ejemplo:</p>
+<p><strong>UI (User Interface)</strong> es el aspecto visual de la interfaz: botones, colores, iconos, tipografía, animaciones... Es la parte “visible”, pero no debe determinar el funcionamiento, sino estar al servicio del mismo.</p>
 </li>
 </ul>
-<pre><code class="language-javascript">import React from 'react';
-import Head from 'next/head';
-
-export default function Home() {
-  return (
-    &lt;div&gt;
-      &lt;Head&gt;
-        &lt;title&gt;Página SSR Optimizada&lt;/title&gt;
-        &lt;meta name=&quot;description&quot; content=&quot;Página web con renderizado del lado del servidor para mejorar el SEO.&quot; /&gt;
-      &lt;/Head&gt;
-      &lt;h1&gt;Bienvenido a una página con SSR&lt;/h1&gt;
-      &lt;p&gt;Esta página está optimizada para buscadores.&lt;/p&gt;
-    &lt;/div&gt;
-  );
-}
-</code></pre>
-<p><strong>Ejemplo con React Helmet:</strong></p>
-<pre><code class="language-jsx">import { Helmet } from 'react-helmet';
-
-function HomePage() {
-  return (
-    &lt;div&gt;
-      &lt;Helmet&gt;
-        &lt;title&gt;Gestor de Tareas&lt;/title&gt;
-        &lt;meta name=&quot;description&quot; content=&quot;Aplicación web para gestionar tareas de manera eficiente&quot; /&gt;
-      &lt;/Helmet&gt;
-      &lt;h1&gt;Bienvenido a Gestor de Tareas&lt;/h1&gt;
-    &lt;/div&gt;
-  );
-}
-</code></pre>
-<h3 id="5-seo-tecnico">5. SEO Técnico</h3>
-<p><strong>Archivo robots.txt:</strong></p>
-<p>El archivo <code>robots.txt</code> es esencial para informar a los motores de búsqueda qué páginas o secciones de un sitio web pueden rastrear. Es particularmente útil para evitar que áreas como <code>/admin/</code> o páginas de prueba sean indexadas.</p>
-<p>Ejemplo de archivo básico:</p>
-<pre><code class="language-txt">User-agent: *
-Disallow: /admin/
-Sitemap: https://miweb.com/sitemap.xml
-</code></pre>
+<p>Pensar primero en la UX significa <strong>diseñar desde las tareas</strong>, no desde los colores. Significa analizar qué necesita hacer el usuario y en qué orden, antes de decidir cómo se verá cada pantalla.</p>
+<h2 id="las-leyes-de-ux-principios-para-un-diseno-funcional"><strong>Las leyes de UX: principios para un diseño funcional</strong></h2>
+<p>Los profesionales del diseño de experiencia de usuario trabajan apoyándose en principios basados en la psicología y el comportamiento humano. Estas <strong>leyes de UX</strong> nos ayudan a diseñar con más criterio. Aquí tienes algunas fundamentales:</p>
+<h3 id="1-ley-de-hick"><strong><em>1. Ley de Hick</em></strong></h3>
+<p><em>Cuantas más opciones tiene una persona, más tarda en decidir.</em></p>
+<p>Por eso es mejor simplificar. No muestres 12 botones cuando el usuario solo necesita 3. Un menú corto es más efectivo que uno con 15 categorías.</p>
+<h3 id="2-ley-de-fitts"><strong><em>2. Ley de Fitts</em></strong></h3>
+<p><em>El tiempo que se tarda en alcanzar un objetivo depende de su tamaño y cercanía.</em></p>
+<p>En dispositivos móviles, los botones más usados deben ser grandes y estar al alcance del pulgar. No escondas funciones clave en esquinas lejanas.</p>
+<h3 id="3-ley-de-jakob"><strong><em>3. Ley de Jakob</em></strong></h3>
+<p><em>Las personas esperan que tu web/app funcione como las que ya conocen.</em></p>
+<p>Esto no es malo: aprovecha los patrones familiares. Si un icono de carrito siempre está arriba a la derecha, no lo pongas en el pie de página sin motivo.</p>
+<h3 id="4-ley-de-tesler-ley-de-la-complejidad"><strong><em>4. Ley de Tesler (Ley de la complejidad)</em></strong></h3>
+<p><em>Cada sistema tiene una complejidad mínima. Si no la gestiona el diseñador, la asume el usuario.</em></p>
+<p>Simplificar no es eliminar opciones, sino <strong>organizar bien la complejidad</strong>: agrupando, mostrando por pasos o usando asistentes.</p>
+<h3 id="5-ley-de-miller"><strong><em>5. Ley de Miller</em></strong></h3>
+<p><em>El cerebro humano sólo puede procesar entre 5 y 9 elementos a la vez.</em></p>
+<p>Si en una pantalla hay más de 9 cosas “gritando”, el usuario se bloquea. Usa jerarquía, espacios, agrupaciones y orden lógico.</p>
+<h3 id="_1"></h3>
+<h2 id="ejemplo-practico-app-de-comida-a-domicilio"><strong>Ejemplo práctico: app de comida a domicilio</strong></h2>
+<p>Imaginemos que vamos a diseñar una aplicación de comida a domicilio similar a Glovo o Just Eat. En este tipo de apps, el objetivo del usuario es claro: pedir comida de forma rápida, cómoda y segura. Pero <strong>¿cómo se traduce eso en pantallas funcionales?</strong> Para hacerlo bien, necesitamos pensar en términos de experiencia de usuario y responder a una serie de preguntas clave.</p>
+<h4 id="que-es-lo-primero-que-necesita-hacer-el-usuario-al-entrar"><strong>¿Qué es lo primero que necesita hacer el usuario al entrar?</strong></h4>
+<p>Lo más probable es que quiera <strong>ver qué restaurantes tiene disponibles cerca</strong>. Por tanto, lo primero debería ser introducir su dirección o permitir la geolocalización. Si esa información ya está guardada, puede pasar directamente al listado de restaurantes.</p>
+<p><strong>Funcionalidad recomendada</strong>: una pantalla inicial con buscador de dirección o botón de “Usar mi ubicación”.</p>
+<h4 id="debe-buscar-un-restaurante-o-iniciar-sesion"><strong>¿Debe buscar un restaurante, o iniciar sesión?</strong></h4>
+<p>No debería ser obligatorio iniciar sesión para <strong>navegar y explorar opciones</strong>. Obligar al registro en el primer paso genera fricción. Es más recomendable dejarlo para el momento del pedido.</p>
+<p><strong>Funcionalidad recomendada</strong>: navegación libre por el catálogo; la sesión solo se solicita al confirmar el pedido.</p>
+<h4 id="como-se-muestra-la-informacion-del-producto"><strong>¿Cómo se muestra la información del producto?</strong></h4>
+<p>Cuando un usuario entra en un restaurante, lo que necesita ver es <strong>el menú clasificado</strong>, con nombre, descripción, precio, imagen opcional y un botón para añadir. No conviene mostrar demasiada información en bloque. Los platos deben estar organizados en categorías (entrantes, principales, postres...).</p>
+<p><strong>Funcionalidad recomendada</strong>: menú estructurado con listas claras, elementos clicables y opción de añadir al carrito directamente.</p>
+<h4 id="como-se-simplifica-el-proceso-de-pago"><strong>¿Cómo se simplifica el proceso de pago?</strong></h4>
+<p>El pago debe requerir <strong>el menor número posible de pasos</strong>. Idealmente, se resume en una pantalla clara donde se pueda revisar el pedido, añadir dirección si no estaba guardada, elegir método de pago y confirmar.</p>
+<p><strong>Funcionalidad recomendada</strong>: pantalla de revisión con totales, dirección editable, opciones de pago guardadas o rápidas.</p>
+<h4 id="donde-puede-consultar-su-pedido-actual"><strong>¿Dónde puede consultar su pedido actual?</strong></h4>
+<p>El usuario debe tener acceso rápido al estado de su pedido. Lo más habitual es incluir un <strong>icono fijo de carrito</strong> (en la parte superior) que lleve directamente a la pantalla del pedido.</p>
+<p><strong>Funcionalidad recomendada</strong>: icono de carrito visible en todo momento, con número de productos y acceso directo al resumen.</p>
+<p>Este tipo de análisis funcional es lo que permite construir una <strong>experiencia de usuario fluida, centrada en las tareas reales del usuario</strong>. El orden de los pasos, la visibilidad de la información y la simplicidad de las acciones son aspectos que definen una buena UX.</p>
+<p>Una vez esté claro qué pantallas necesita el usuario, qué datos debe ver y cómo fluye la navegación entre ellas… <strong>entonces</strong> nos preocuparemos por los colores y la tipografía.</p>
+<p>En resumen, <strong>el diseño funcional es la base de todo buen diseño de interfaz</strong>. Una buena experiencia de usuario es lo que hace que una app sea útil, clara y agradable. La interfaz visual debe servir a esa experiencia, no sustituirla ni taparla.</p>
+<h2 id="enlaces-de-referencia"><strong>Enlaces de referencia</strong></h2>
 <ul>
-<li><code>User-agent: *</code> permite definir reglas para todos los rastreadores.</li>
-<li><code>Disallow: /admin/</code> restringe el acceso al directorio <code>/admin/</code>.</li>
-<li><code>Sitemap:</code> proporciona la ubicación del sitemap del sitio, facilitando el rastreo.</li>
+<li><a href="https://lawsofux.com/">Laws of UX – Colección completa con ejemplos visuales</a></li>
+<li><a href="https://uxplanet.org/the-difference-between-ux-and-ui-design-a6f6e4eea8a0">UX Planet – Diferencia entre UX y UI</a></li>
+<li><a href="https://www.nngroup.com/articles/definition-user-experience/">NNGroup – What is User Experience?</a></li>
+<li><a href="https://uxdesign.cc/ux-is-not-ui-2f8b53f7c1d5">UX Collective – UX antes que UI</a></li>
 </ul>
-<p><strong>Sitemap XML:</strong></p>
-<p>Un sitemap es un archivo que enumera todas las URLs de un sitio web, ayudando a los motores de búsqueda a identificar y rastrear su contenido.</p>
-<p>Ejemplo básico de sitemap:</p>
-<pre><code class="language-xml">&lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;
-  &lt;url&gt;
-    &lt;loc&gt;https://miweb.com/&lt;/loc&gt;
-    &lt;lastmod&gt;2025-01-01&lt;/lastmod&gt;
-    &lt;priority&gt;1.0&lt;/priority&gt;
-  &lt;/url&gt;
-  &lt;url&gt;
-    &lt;loc&gt;https://miweb.com/about&lt;/loc&gt;
-    &lt;lastmod&gt;2025-01-02&lt;/lastmod&gt;
-    &lt;priority&gt;0.8&lt;/priority&gt;
-  &lt;/url&gt;
-&lt;/urlset&gt;
-</code></pre>
-<ul>
-<li><code>&lt;loc&gt;</code> define la URL de la página.</li>
-<li><code>&lt;lastmod&gt;</code> indica la última fecha de modificación.</li>
-<li><code>&lt;priority&gt;</code> establece la prioridad relativa de la URL para el rastreo.</li>
-</ul>
-<p><strong>Optimización de velocidad:</strong></p>
-<ul>
-<li><strong>Compresión de imágenes:</strong> Usar formatos como WebP que reducen el tamaño de las imágenes sin sacrificar calidad.</li>
-<li><strong>Habilitar Gzip:</strong> Comprimir respuestas HTTP desde el servidor para acelerar la transferencia de datos.</li>
-<li><strong>Minificar archivos:</strong> Reducir el tamaño de archivos CSS y JavaScript eliminando espacios y comentarios innecesarios.</li>
-</ul>
-<h3 id="6-seo-off-page">6. SEO Off-page</h3>
-<p><strong>Backlinks:</strong></p>
-<ul>
-<li>Crear contenido valioso, como guías, tutoriales o estudios originales, para atraer enlaces de otras webs. Por ejemplo, un artículo detallado sobre "Mejores prácticas de SEO para desarrolladores MERN" puede ser enlazado por blogs del sector.</li>
-<li>Participar en comunidades relacionadas con el sector, como foros especializados o plataformas como Reddit, respondiendo preguntas y compartiendo contenido útil que enlace a tu página.</li>
-<li>Colaborar con otras páginas o blogs en publicaciones conjuntas, donde se intercambien enlaces de manera natural y relevante.</li>
-<li>Publicar contenido en plataformas externas como Medium o LinkedIn, incluyendo enlaces estratégicos hacia tu sitio principal.</li>
-</ul>
+<h2 id="actividad-practica-en-clase"><strong>Actividad práctica en clase</strong></h2>
+<p><strong>Título</strong>: “Analizar y repensar la funcionalidad”</p>
+<ol>
+<li>Divide al alumnado en pequeños grupos.</li>
+<li>Cada grupo elegirá una app popular (puede ser Instagram, Amazon, Glovo, Duolingo...).</li>
+<li>Deben responder por escrito:</li>
+<li>¿Cuál es el objetivo principal del usuario?</li>
+<li>¿Cuáles son los pasos que debe dar para lograrlo?</li>
+<li>¿Qué elementos visuales lo ayudan o lo entorpecen?</li>
+<li>¿Qué decisión de diseño visual no tiene sentido desde el punto de vista funcional?</li>
+<li>Después, cada grupo debe <strong>proponer una mejora funcional</strong> (no estética) que haría más fácil o clara la experiencia del usuario.</li>
+</ol>
+<p>Esta actividad puede completarse con una puesta en común o una presentación breve por grupo.</p>
 
 
 
