@@ -5,13 +5,8 @@ site_dir: ../../docs/referencias
 # Page tree
 nav:
   - Inicio: index.md
-  - Introducción al Diseño, Percepción y Comunicación Visual: ud1-introduccion-al-diseno.md
-  - Planificación y Prototipado de una interfaz web: ud2-planificacion-prototipado.md
-  - Usabilidad y UX en Testing de Productos Digitales: ud3-Testing-Usabilidad.md
-  - Desarrollando la interfaz: ud4-0-desarrollando-la-interfaz.md
-  - Accesibilidad Web: ud6-accesibilidad-web.md
-  - SEO: ud7-SEO.md
-  - Multimedia aplicada a productos digitales: ud8-Multimedia aplicada a productos digitales.md
+  - Órbita 1 Diseñar para que funcione: orbita1-disenar-para-que-funcione.md
+
 
   # - UD5:
   #     - ud5.md
