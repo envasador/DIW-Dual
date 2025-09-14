@@ -13,7 +13,6 @@ El diseño de interfaces no consiste en hacer algo "bonito", sino en facilitar q
 La interfaz es el puente entre el usuario y el sistema. Si ese puente está mal diseñado, el usuario se pierde, se frustra o abandona. Por eso, antes de decidir colores o tipografías, debemos entender para qué sirve la interfaz, qué necesita el usuario, y cómo debe estar organizada la información.
 
 # **1\. UX primero, UI después: pensar en funcionalidad**
-
 En el mundo del diseño web y de interfaces, es muy fácil dejarse llevar por lo visual. Muchas veces empezamos un proyecto pensando en el logo, los colores corporativos o los estilos tipográficos. Pero esta no es la forma más eficaz de construir una interfaz que realmente funcione.
 
 El punto de partida siempre debe ser **la funcionalidad**: entender al usuario, identificar qué tareas necesita realizar, y diseñar una estructura que le permita lograr su objetivo sin frustración. Esto es lo que diferencia una interfaz atractiva pero inútil de una interfaz efectiva.
