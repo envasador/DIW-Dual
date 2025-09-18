@@ -1,0 +1,689 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/sello-safael-slberti-imago-blanco.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Órbita 1: Diseñar para que funcione Introducción - Diseño de Interfaces Web - Apuntes y referencias</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheet/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="daw-style" data-md-color-primary="grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#orbita-1-disenar-para-que-funcione-introduccion" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Diseño de Interfaces Web - Apuntes y referencias" class="md-header__button md-logo" aria-label="Diseño de Interfaces Web - Apuntes y referencias" data-md-component="logo">
+      
+  <img src="../assets/sello-safael-slberti-imago-blanco.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diseño de Interfaces Web - Apuntes y referencias
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Órbita 1: Diseñar para que funcione Introducción
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="daw-style" data-md-color-primary="grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../orbita1-disenar-para-que-funcione.md" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Órbita 1 Diseñar para que funcione
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Diseño de Interfaces Web - Apuntes y referencias" class="md-nav__button md-logo" aria-label="Diseño de Interfaces Web - Apuntes y referencias" data-md-component="logo">
+      
+  <img src="../assets/sello-safael-slberti-imago-blanco.svg" alt="logo">
+
+    </a>
+    Diseño de Interfaces Web - Apuntes y referencias
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../orbita1-disenar-para-que-funcione.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Órbita 1 Diseñar para que funcione
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducción
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-ux-primero-ui-despues-pensar-en-funcionalidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. UX primero, UI después: pensar en funcionalidad
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. UX primero, UI después: pensar en funcionalidad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-la-ux-y-en-que-se-diferencia-de-la-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Qué es la UX y en qué se diferencia de la UI?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#las-leyes-de-ux-principios-para-un-diseno-funcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Las leyes de UX: principios para un diseño funcional
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Las leyes de UX: principios para un diseño funcional">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ley-de-hick" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Ley de Hick
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ley-de-fitts" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Ley de Fitts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-ley-de-jakob" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Ley de Jakob
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-ley-de-tesler-ley-de-la-complejidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Ley de Tesler (Ley de la complejidad)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-ley-de-miller" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Ley de Miller
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplo-practico-app-de-comida-a-domicilio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplo práctico: app de comida a domicilio
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejemplo práctico: app de comida a domicilio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-lo-primero-que-necesita-hacer-el-usuario-al-entrar" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Qué es lo primero que necesita hacer el usuario al entrar?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debe-buscar-un-restaurante-o-iniciar-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Debe buscar un restaurante, o iniciar sesión?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-se-muestra-la-informacion-del-producto" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Cómo se muestra la información del producto?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-se-simplifica-el-proceso-de-pago" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Cómo se simplifica el proceso de pago?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#donde-puede-consultar-su-pedido-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Dónde puede consultar su pedido actual?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enlaces-de-referencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enlaces de referencia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-practica-en-clase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividad práctica en clase
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="orbita-1-disenar-para-que-funcione-introduccion"><strong>Órbita 1: Diseñar para que funcione</strong> <strong>Introducción</strong></h1>
+<p><img alt="" src="../assets/referencias.jpg" /></p>
+<h2 id="introduccion"><strong>Introducción</strong></h2>
+<p>El diseño de interfaces no consiste en hacer algo "bonito", sino en facilitar que el usuario logre sus objetivos de manera clara, rápida y sin fricciones. Esta órbita se centra en el diseño funcional: en pensar primero en tareas, flujos y estructura antes de aplicar cualquier decisión visual.</p>
+<p>La interfaz es el puente entre el usuario y el sistema. Si ese puente está mal diseñado, el usuario se pierde, se frustra o abandona. Por eso, antes de decidir colores o tipografías, debemos entender para qué sirve la interfaz, qué necesita el usuario, y cómo debe estar organizada la información.</p>
+<h2 id="1-ux-primero-ui-despues-pensar-en-funcionalidad"><strong>1. UX primero, UI después: pensar en funcionalidad</strong></h2>
+<p>En el mundo del diseño web y de interfaces, es muy fácil dejarse llevar por lo visual. Muchas veces empezamos un proyecto pensando en el logo, los colores corporativos o los estilos tipográficos. Pero esta no es la forma más eficaz de construir una interfaz que realmente funcione.</p>
+<p>El punto de partida siempre debe ser <strong>la funcionalidad</strong>: entender al usuario, identificar qué tareas necesita realizar, y diseñar una estructura que le permita lograr su objetivo sin frustración. Esto es lo que diferencia una interfaz atractiva pero inútil de una interfaz efectiva.</p>
+<h3 id="que-es-la-ux-y-en-que-se-diferencia-de-la-ui"><strong>¿Qué es la UX y en qué se diferencia de la UI?</strong></h3>
+<ul>
+<li>
+<p><strong>UX (User Experience)</strong> es la experiencia completa que tiene una persona al interactuar con una app, web o sistema. Abarca desde la lógica de navegación hasta cómo se siente al usarla: ¿es fácil?, ¿consigue lo que busca?, ¿se siente frustrado o satisfecho?</p>
+</li>
+<li>
+<p><strong>UI (User Interface)</strong> es el aspecto visual de la interfaz: botones, colores, iconos, tipografía, animaciones... Es la parte “visible”, pero no debe determinar el funcionamiento, sino estar al servicio del mismo.</p>
+</li>
+</ul>
+<p>Pensar primero en la UX significa <strong>diseñar desde las tareas</strong>, no desde los colores. Significa analizar qué necesita hacer el usuario y en qué orden, antes de decidir cómo se verá cada pantalla.</p>
+<h3 id="las-leyes-de-ux-principios-para-un-diseno-funcional"><strong>Las leyes de UX: principios para un diseño funcional</strong></h3>
+<p>Los profesionales del diseño de experiencia de usuario trabajan apoyándose en principios basados en la psicología y el comportamiento humano. Estas <strong>leyes de UX</strong> nos ayudan a diseñar con más criterio. Aquí tienes algunas fundamentales:</p>
+<h4 id="1-ley-de-hick"><strong><em>1. Ley de Hick</em></strong></h4>
+<p><em>Cuantas más opciones tiene una persona, más tarda en decidir.</em></p>
+<p>Por eso es mejor simplificar. No muestres 12 botones cuando el usuario solo necesita 3. Un menú corto es más efectivo que uno con 15 categorías.</p>
+<h4 id="2-ley-de-fitts"><strong><em>2. Ley de Fitts</em></strong></h4>
+<p><em>El tiempo que se tarda en alcanzar un objetivo depende de su tamaño y cercanía.</em></p>
+<p>En dispositivos móviles, los botones más usados deben ser grandes y estar al alcance del pulgar. No escondas funciones clave en esquinas lejanas.</p>
+<h4 id="3-ley-de-jakob"><strong><em>3. Ley de Jakob</em></strong></h4>
+<p><em>Las personas esperan que tu web/app funcione como las que ya conocen.</em></p>
+<p>Esto no es malo: aprovecha los patrones familiares. Si un icono de carrito siempre está arriba a la derecha, no lo pongas en el pie de página sin motivo.</p>
+<h3 id="4-ley-de-tesler-ley-de-la-complejidad"><strong><em>4. Ley de Tesler (Ley de la complejidad)</em></strong></h3>
+<p><em>Cada sistema tiene una complejidad mínima. Si no la gestiona el diseñador, la asume el usuario.</em></p>
+<p>Simplificar no es eliminar opciones, sino <strong>organizar bien la complejidad</strong>: agrupando, mostrando por pasos o usando asistentes.</p>
+<h3 id="5-ley-de-miller"><strong><em>5. Ley de Miller</em></strong></h3>
+<p><em>El cerebro humano sólo puede procesar entre 5 y 9 elementos a la vez.</em></p>
+<p>Si en una pantalla hay más de 9 cosas “gritando”, el usuario se bloquea. Usa jerarquía, espacios, agrupaciones y orden lógico.</p>
+<h3 id="_1"></h3>
+<h2 id="ejemplo-practico-app-de-comida-a-domicilio"><strong>Ejemplo práctico: app de comida a domicilio</strong></h2>
+<p>Imaginemos que vamos a diseñar una aplicación de comida a domicilio similar a Glovo o Just Eat. En este tipo de apps, el objetivo del usuario es claro: pedir comida de forma rápida, cómoda y segura. Pero <strong>¿cómo se traduce eso en pantallas funcionales?</strong> Para hacerlo bien, necesitamos pensar en términos de experiencia de usuario y responder a una serie de preguntas clave.</p>
+<h4 id="que-es-lo-primero-que-necesita-hacer-el-usuario-al-entrar"><strong>¿Qué es lo primero que necesita hacer el usuario al entrar?</strong></h4>
+<p>Lo más probable es que quiera <strong>ver qué restaurantes tiene disponibles cerca</strong>. Por tanto, lo primero debería ser introducir su dirección o permitir la geolocalización. Si esa información ya está guardada, puede pasar directamente al listado de restaurantes.</p>
+<p><strong>Funcionalidad recomendada</strong>: una pantalla inicial con buscador de dirección o botón de “Usar mi ubicación”.</p>
+<h4 id="debe-buscar-un-restaurante-o-iniciar-sesion"><strong>¿Debe buscar un restaurante, o iniciar sesión?</strong></h4>
+<p>No debería ser obligatorio iniciar sesión para <strong>navegar y explorar opciones</strong>. Obligar al registro en el primer paso genera fricción. Es más recomendable dejarlo para el momento del pedido.</p>
+<p><strong>Funcionalidad recomendada</strong>: navegación libre por el catálogo; la sesión solo se solicita al confirmar el pedido.</p>
+<h4 id="como-se-muestra-la-informacion-del-producto"><strong>¿Cómo se muestra la información del producto?</strong></h4>
+<p>Cuando un usuario entra en un restaurante, lo que necesita ver es <strong>el menú clasificado</strong>, con nombre, descripción, precio, imagen opcional y un botón para añadir. No conviene mostrar demasiada información en bloque. Los platos deben estar organizados en categorías (entrantes, principales, postres...).</p>
+<p><strong>Funcionalidad recomendada</strong>: menú estructurado con listas claras, elementos clicables y opción de añadir al carrito directamente.</p>
+<h4 id="como-se-simplifica-el-proceso-de-pago"><strong>¿Cómo se simplifica el proceso de pago?</strong></h4>
+<p>El pago debe requerir <strong>el menor número posible de pasos</strong>. Idealmente, se resume en una pantalla clara donde se pueda revisar el pedido, añadir dirección si no estaba guardada, elegir método de pago y confirmar.</p>
+<p><strong>Funcionalidad recomendada</strong>: pantalla de revisión con totales, dirección editable, opciones de pago guardadas o rápidas.</p>
+<h4 id="donde-puede-consultar-su-pedido-actual"><strong>¿Dónde puede consultar su pedido actual?</strong></h4>
+<p>El usuario debe tener acceso rápido al estado de su pedido. Lo más habitual es incluir un <strong>icono fijo de carrito</strong> (en la parte superior) que lleve directamente a la pantalla del pedido.</p>
+<p><strong>Funcionalidad recomendada</strong>: icono de carrito visible en todo momento, con número de productos y acceso directo al resumen.</p>
+<p>Este tipo de análisis funcional es lo que permite construir una <strong>experiencia de usuario fluida, centrada en las tareas reales del usuario</strong>. El orden de los pasos, la visibilidad de la información y la simplicidad de las acciones son aspectos que definen una buena UX.</p>
+<p>Una vez esté claro qué pantallas necesita el usuario, qué datos debe ver y cómo fluye la navegación entre ellas… <strong>entonces</strong> nos preocuparemos por los colores y la tipografía.</p>
+<p>En resumen, <strong>el diseño funcional es la base de todo buen diseño de interfaz</strong>. Una buena experiencia de usuario es lo que hace que una app sea útil, clara y agradable. La interfaz visual debe servir a esa experiencia, no sustituirla ni taparla.</p>
+<h2 id="enlaces-de-referencia"><strong>Enlaces de referencia</strong></h2>
+<ul>
+<li><a href="https://lawsofux.com/">Laws of UX – Colección completa con ejemplos visuales</a></li>
+<li><a href="https://uxplanet.org/the-difference-between-ux-and-ui-design-a6f6e4eea8a0">UX Planet – Diferencia entre UX y UI</a></li>
+<li><a href="https://www.nngroup.com/articles/definition-user-experience/">NNGroup – What is User Experience?</a></li>
+<li><a href="https://uxdesign.cc/ux-is-not-ui-2f8b53f7c1d5">UX Collective – UX antes que UI</a></li>
+</ul>
+<h2 id="actividad-practica-en-clase"><strong>Actividad práctica en clase</strong></h2>
+<p><strong>Título</strong>: “Analizar y repensar la funcionalidad”</p>
+<ol>
+<li>Divide al alumnado en pequeños grupos.</li>
+<li>Cada grupo elegirá una app popular (puede ser Instagram, Amazon, Glovo, Duolingo...).</li>
+<li>Deben responder por escrito:</li>
+<li>¿Cuál es el objetivo principal del usuario?</li>
+<li>¿Cuáles son los pasos que debe dar para lograrlo?</li>
+<li>¿Qué elementos visuales lo ayudan o lo entorpecen?</li>
+<li>¿Qué decisión de diseño visual no tiene sentido desde el punto de vista funcional?</li>
+<li>Después, cada grupo debe <strong>proponer una mejora funcional</strong> (no estética) que haría más fácil o clara la experiencia del usuario.</li>
+</ol>
+<p>Esta actividad la completaremos con una puesta en común o una presentación breve por grupo.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Contenido generado por el equipo educativo del IES Rafael Alberti
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "header.autohide"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
