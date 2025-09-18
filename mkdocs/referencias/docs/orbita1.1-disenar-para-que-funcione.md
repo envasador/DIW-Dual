@@ -103,17 +103,16 @@ En resumen, **el diseño funcional es la base de todo buen diseño de interfaz**
 ## **Enlaces de referencia**
 
 * [Laws of UX – Colección completa con ejemplos visuales](https://lawsofux.com/)
-* [UX Planet – Diferencia entre UX y UI](https://uxplanet.org/the-difference-between-ux-and-ui-design-a6f6e4eea8a0)
 * [NNGroup – What is User Experience?](https://www.nngroup.com/articles/definition-user-experience/)
-* [UX Collective – UX antes que UI](https://uxdesign.cc/ux-is-not-ui-2f8b53f7c1d5)
+* [Leyes UX con ejemplos](https://medium.com/startups-es/las-leyes-de-ux-con-casos-pr%C3%A1cticos-b838ddf7ff9b)
 
 ## **Actividad práctica en clase**
 
 **Título**: “Analizar y repensar la funcionalidad”
 
-1. Divide al alumnado en pequeños grupos.
+1. Nos dividimos en pequeños grupos.
 2. Cada grupo elegirá una app popular (puede ser Instagram, Amazon, Glovo, Duolingo...).
-3. Deben responder por escrito:
+3. Debéis responder por escrito:
   * ¿Cuál es el objetivo principal del usuario?
   * ¿Cuáles son los pasos que debe dar para lograrlo?
   * ¿Qué elementos visuales lo ayudan o lo entorpecen?
