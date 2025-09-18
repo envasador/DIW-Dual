@@ -66,13 +66,12 @@ Si quieres explorar colecciones reales de patrones y estudiar cómo se aplican e
 
 **Título**: “Caza de patrones y antipatrones”
 
-1. El alumnado visitará [User Inyerface](https://userinyerface.com/), una web intencionadamente mal diseñada.
-2. En parejas o grupos, deben identificar al menos **tres antipatrones** que dificultan la interacción.
-3. Por cada antipatrón encontrado, deben explicar:
-
-* Qué problema genera.
-* Por qué rompe con las expectativas del usuario.
-* Qué patrón correcto se podría aplicar para resolverlo.
-4. Como complemento, pueden buscar **dos patrones positivos** en una app real que les guste (Spotify, TikTok, Airbnb, etc.) y explicar por qué funcionan.
+1. Vamos a revisitar [User Inyerface](https://userinyerface.com/), una web intencionadamente mal diseñada cómo ya concéis.
+2. En parejas o grupos, debéis identificar al menos **tres antipatrones** que dificultan la interacción.
+3. Por cada antipatrón encontrado, debéis explicar:
+   * Qué problema genera.
+   * Por qué rompe con las expectativas del usuario.
+   * Qué patrón correcto se podría aplicar para resolverlo.
+4. Como complemento, podéis buscar **dos patrones positivos** en una app real que os guste (Spotify, TikTok, Airbnb, etc.) y explicar por qué funcionan.
 
 Esta actividad nos permite desarrollar el pensamiento crítico y aplicar conceptos de forma práctica. Cerraremos la actividad con una puesta en común o una galería de ejemplos comentados ahora en clase. (dependiendo del tiempo que tengamos).

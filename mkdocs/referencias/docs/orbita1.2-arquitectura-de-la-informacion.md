@@ -69,25 +69,21 @@ Diseñar esta estructura antes de hacer wireframes evita improvisaciones y facil
 
 ## **Recursos de referencia**
 
-* [Information Architecture Basics (NNGroup)](https://www.nngroup.com/articles/information-architecture-basics/)
-* [Dan Brown – Seven principles of IA](https://boxesandarrows.com/seven-structural-principles-of-information-architecture/)
-* [UX Collective – What is Information Architecture?](https://uxdesign.cc/information-architecture-basics-54f4e1b7f7d8)
+* [Galería de plantillas Figma y FigJam](https://www.figma.com/es-es/plantillas/)
+* [Página principal de FigJam (pizarra colaborativa de Figma](https://www.figma.com/es-es/figjam/)
 * [Miro templates para IA](https://miro.com/templates/): mapas de navegación, árboles de contenido, etc.
 
 ## **Actividad práctica en clase**
 
 **Título**: “Construye tu mapa de navegación”
 
-1. Cada grupo trabajará sobre la app que están diseñando en el proyecto práctico.
-2. Deberán elaborar un mapa de navegación que incluya:
-
+1. Cada persona trabajará sobre la app que están diseñando en el proyecto.
+2. Deberéis elaborar un mapa de navegación que incluya:
   * Secciones principales
   * Subpantallas o funcionalidades internas
   * Relaciones entre páginas
-
-3. Usarán papel o Figma para representarlo visualmente.
-4. Como extensión, deberán justificar por escrito:
-
+3. Debéis usar papel o Figma para representarlo visualmente.
+4. Como extensión, deberéis justificar por escrito:
   * Por qué han agrupado así el contenido
   * Qué flujo principal sigue el usuario
   * Cómo se evita que el usuario se pierda

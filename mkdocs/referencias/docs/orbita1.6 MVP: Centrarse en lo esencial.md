@@ -80,10 +80,6 @@ En el proyecto práctico asociado a esta órbita, se pide al alumnado que constr
 
 ## **Recursos recomendados para ampliar**
 
-* [UX Collective – What is an MVP](https://uxdesign.cc/minimum-viable-product-mvp-definition-and-importance-550502f05c7c)
-* [NNGroup – MVP: Minimum Viable Products](https://www.nngroup.com/articles/minimum-viable-products/)
-* [MVP Canvas – Herramienta para definir MVPs](https://canvanizer.com/new/lean-canvas)
-* [UX Planet – MVP Definition and Benefits](https://uxplanet.org/what-is-mvp-definition-and-benefits-8b04d3d3c87a)
 
 ## **Actividad práctica en clase**
 
@@ -93,13 +89,13 @@ En el proyecto práctico asociado a esta órbita, se pide al alumnado que constr
 
 **Desarrollo**:
 
-1. Cada grupo parte de su mapa de navegación y wireframes previos.
-2. Identifican el objetivo principal del usuario en su app.
-3. Elaboran una tabla que diferencie:
+1. Cada persona parte de su mapa de navegación y wireframes previos.
+2. Identificaréis el objetivo principal del usuario en su app.
+3. Elaboraréis una tabla que diferencie:
   * Funcionalidades esenciales (incluidas en el MVP)
   * Funcionalidades complementarias (para versiones futuras)
-4. Representan el flujo MVP en una herramienta de su elección.
-5. Presentan el flujo y la tabla, justificando qué entra y por qué.
+4. Representaréis el flujo MVP en una herramienta de su elección.
+5. Presentaréis el flujo y la tabla, justificando qué entra y por qué.
 
 Esta actividad refuerza la idea de que el diseño no debe nacer desde la ambición estética o la acumulación de ideas, sino desde una estrategia funcional clara y enfocada en el usuario.
 

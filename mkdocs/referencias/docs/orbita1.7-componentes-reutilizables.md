@@ -78,11 +78,11 @@ Estos elementos se pueden usar en múltiples pantallas, garantizando coherencia 
 
 ## **Actividad práctica en clase: “Construcción del sistema de componentes”**
 
-Cada grupo revisará su prototipo funcional e identificará al menos cinco componentes reutilizables. En una nueva página de su archivo de Figma:
+Cada persona revisará su prototipo funcional e identificará al menos cinco componentes reutilizables. En una nueva página de su archivo de Figma:
 
-* Construirán esos componentes y los clasificarán según Atomic Design.
-* Añadirán etiquetas y una breve descripción funcional.
-* Definirán al menos una variante para cada uno (por ejemplo: activo / inactivo).
+* Construiréis esos componentes y los clasificaréris según Atomic Design.
+* Añadiréis etiquetas y una breve descripción funcional.
+* Definiréis al menos una variante para cada uno (por ejemplo: activo / inactivo).
 
 Esta actividad no requiere todavía aplicar estilo visual. Su objetivo es estructurar la interfaz funcional como un sistema reutilizable. Además, este sistema servirá de base directa para la siguiente órbita, donde sí aplicaremos colores, tipografías y guías de estilo.
 

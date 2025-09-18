@@ -51,8 +51,7 @@ Esto basta para probar si el flujo de registro funciona y si es comprensible.
 
 ## **Recursos de referencia**
 
-* [Wireframing with Figma](https://help.figma.com/hc/en-us/articles/360041003113-Create-wireframes-in-Figma)
-* [Balsamiq Wireframes (gratuito con prueba)](https://balsamiq.com/)
+* [Figma Learn](https://help.figma.com/hc/es-es)
 * [Mockflow](https://mockflow.com/)
 * [Material Design Wireframe Kit](https://material.io/resources) (componentes de Google Material para wireframes)
 * [UXPin Guide to Wireframing](https://www.uxpin.com/studio/ebooks/guide-to-wireframing/)

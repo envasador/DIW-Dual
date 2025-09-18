@@ -27,7 +27,6 @@ Este tipo de análisis activa el pensamiento crítico, refuerza los conceptos es
 Utiliza [webwithoutwords.com](https://webwithoutwords.com), una herramienta que elimina todo el texto de una web real y muestra solo su estructura visual. El alumnado debe:
 
 * Identificar la jerarquía visual y funcional.
-
 * Suponer qué contenido podría ir en cada bloque.
 
 * Justificar cómo se guía la atención del usuario.

@@ -68,23 +68,19 @@ El resultado es un flujo de navegación funcional que podemos **probar, enseñar
 ## **Recursos de referencia**
 
 * [Figma: cómo crear prototipos](https://help.figma.com/hc/en-us/articles/360040451373-Create-interactive-prototypes)
-* [LearnUX.io – Curso básico de Figma](https://learnux.io/course/figma)
-* [UXPin Guide to Prototyping](https://www.uxpin.com/studio/blog/complete-guide-to-prototyping/)
-* [Adobe XD vs Figma para prototipos (comparativa útil)](https://www.mockplus.com/blog/post/figma-vs-adobe-xd)
-
 ---
 
 ## **Actividad práctica en clase**
 
 **Título**: *“Prototipa tu idea”*
 
-Cada grupo partirá de los **wireframes creados en el punto anterior** y los transformará en un **prototipo navegable**.
+Cada persona partirá de los **wireframes creados en el punto anterior** y los transformará en un **prototipo navegable**.
 
 **Instrucciones:**
 
-1. Usarán Figma (u otra herramienta pactada) para montar sus pantallas.
-2. Enlazarán botones y elementos interactivos para simular al menos **dos flujos completos de usuario** (por ejemplo: buscar \> ver \> añadir, o registro \> login \> inicio).
-3. Compartirán el enlace del prototipo con otros grupos.
+1. Usaréis Figma para montar sus pantallas.
+2. Enlazaréis botones y elementos interactivos para simular al menos **tres flujos completos de usuario** (por ejemplo: buscar \> ver \> añadir, o registro \> login \> inicio).
+3. Compartiréis el enlace del prototipo con otros grupos.
 4. Cada grupo hará una **prueba cruzada**: usar el prototipo de otro grupo y dejar comentarios sobre la claridad del flujo.
 
 **Objetivo de la actividad:**

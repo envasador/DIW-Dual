@@ -20,7 +20,6 @@ El módulo se organiza en las siguientes unidades, que se actualizarán a medida
   * [1.5 Prototipado](orbita1.5-prototipado.md)
   * [1.6 MVP: Centrarse en lo esencial](orbita1.6%20MVP%3A%20Centrarse%20en%20lo%20esencial.md)
   * [1.7 Atomic Deisgn](orbita1.7-componentes-reutilizables.md)
-  * [1.8 Estudios de caso](orbita1.8%20estudios-de-caso.md)
 
 
 ## Referencias web generales
