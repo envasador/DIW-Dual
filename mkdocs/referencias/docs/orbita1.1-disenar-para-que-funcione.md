@@ -6,42 +6,41 @@ hide:
 
 ![](assets/referencias.jpg)
 
-# **Introducción**
-
+## **Introducción**
 El diseño de interfaces no consiste en hacer algo "bonito", sino en facilitar que el usuario logre sus objetivos de manera clara, rápida y sin fricciones. Esta órbita se centra en el diseño funcional: en pensar primero en tareas, flujos y estructura antes de aplicar cualquier decisión visual.
 
 La interfaz es el puente entre el usuario y el sistema. Si ese puente está mal diseñado, el usuario se pierde, se frustra o abandona. Por eso, antes de decidir colores o tipografías, debemos entender para qué sirve la interfaz, qué necesita el usuario, y cómo debe estar organizada la información.
 
-# **1\. UX primero, UI después: pensar en funcionalidad**
+
+## **1. UX primero, UI después: pensar en funcionalidad**
 En el mundo del diseño web y de interfaces, es muy fácil dejarse llevar por lo visual. Muchas veces empezamos un proyecto pensando en el logo, los colores corporativos o los estilos tipográficos. Pero esta no es la forma más eficaz de construir una interfaz que realmente funcione.
 
 El punto de partida siempre debe ser **la funcionalidad**: entender al usuario, identificar qué tareas necesita realizar, y diseñar una estructura que le permita lograr su objetivo sin frustración. Esto es lo que diferencia una interfaz atractiva pero inútil de una interfaz efectiva.
 
-## **¿Qué es la UX y en qué se diferencia de la UI?**
-
+### **¿Qué es la UX y en qué se diferencia de la UI?**
 * **UX (User Experience)** es la experiencia completa que tiene una persona al interactuar con una app, web o sistema. Abarca desde la lógica de navegación hasta cómo se siente al usarla: ¿es fácil?, ¿consigue lo que busca?, ¿se siente frustrado o satisfecho?
 
 * **UI (User Interface)** es el aspecto visual de la interfaz: botones, colores, iconos, tipografía, animaciones... Es la parte “visible”, pero no debe determinar el funcionamiento, sino estar al servicio del mismo.
 
 Pensar primero en la UX significa **diseñar desde las tareas**, no desde los colores. Significa analizar qué necesita hacer el usuario y en qué orden, antes de decidir cómo se verá cada pantalla.
 
-## **Las leyes de UX: principios para un diseño funcional**
+### **Las leyes de UX: principios para un diseño funcional**
 
 Los profesionales del diseño de experiencia de usuario trabajan apoyándose en principios basados en la psicología y el comportamiento humano. Estas **leyes de UX** nos ayudan a diseñar con más criterio. Aquí tienes algunas fundamentales:
 
-### ***1\. Ley de Hick***
+#### ***1\. Ley de Hick***
 
 *Cuantas más opciones tiene una persona, más tarda en decidir.*
 
 Por eso es mejor simplificar. No muestres 12 botones cuando el usuario solo necesita 3\. Un menú corto es más efectivo que uno con 15 categorías.
 
-### ***2\. Ley de Fitts***
+#### ***2\. Ley de Fitts***
 
 *El tiempo que se tarda en alcanzar un objetivo depende de su tamaño y cercanía.*
 
 En dispositivos móviles, los botones más usados deben ser grandes y estar al alcance del pulgar. No escondas funciones clave en esquinas lejanas.
 
-### ***3\. Ley de Jakob***
+#### ***3\. Ley de Jakob***
 
 *Las personas esperan que tu web/app funcione como las que ya conocen.*
 
@@ -121,4 +120,4 @@ En resumen, **el diseño funcional es la base de todo buen diseño de interfaz**
   * ¿Qué decisión de diseño visual no tiene sentido desde el punto de vista funcional?
 4. Después, cada grupo debe **proponer una mejora funcional** (no estética) que haría más fácil o clara la experiencia del usuario.
 
-Esta actividad puede completarse con una puesta en común o una presentación breve por grupo.
+Esta actividad la completaremos con una puesta en común o una presentación breve por grupo.
