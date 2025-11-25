@@ -15,3 +15,5 @@ El módulo se organiza en las siguientes unidades, que se actualizarán a medida
 * [Proyecto 1: Diseñar para que funcione](proyecto1.md)
 * [Proyecto 2: Diseñar para que se entienda](proyecto2.md)
 * [Proyecto 3: Maquetar para dar forma](proyecto3.md)
+
+---
