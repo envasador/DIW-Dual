@@ -34,16 +34,19 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 ### **Fases del proyecto**
 
 **Bloque 1 * Fundamentos:**
+
 * [Fase 1: Fundamentos y arquitectura CSS](fase-1-fundamentos-arquitectura-css.md)
 * [Fase 2: HTML semántico y estructura](fase-2-html-semantico-estructura.md)
 * [Fase 3: Sistema de componentes visuales](fase-3-sistema-componentes-visuales.md)
 
 **Bloque 2 * Responsive y optimización:**
+
 * [Fase 4: Responsive design y layouts](fase-4-responsive-design-layouts.md)
 * [Fase 5: Multimedia optimizada](fase-5-multimedia-optimizada.md)
 * [Fase 6: Temas y modo oscuro](fase-6-temas-modo-oscuro.md)
 
 **Bloque 3 * Accesibilidad:**
+
 * [Fase 7: Accesibilidad web](fase-7-accesibilidad-web.md)
 
 ---
@@ -256,32 +259,35 @@ Las rúbricas están organizadas por cada criterio de evaluación. Cada criterio
 
 Tu proyecto será **excelente** si:
 
-1. ✅ Traduce fielmente el diseño de Figma a código
-2. ✅ Tiene arquitectura CSS escalable y profesional
-3. ✅ Usa HTML semántico impecable
-4. ✅ Funciona perfectamente en mobile, tablet, desktop
-5. ✅ Carga rápido (< 2MB página completa)
-6. ✅ Tiene modo claro y oscuro funcional
-7. ✅ Cumple WCAG nivel A mínimo
-8. ✅ Está completamente documentado
-9. ✅ Está desplegado y accesible por URL pública
+1. Traduce fielmente el diseño de Figma a código
+2. Tiene arquitectura CSS escalable y profesional
+3. Usa HTML semántico impecable
+4. Funciona perfectamente en mobile, tablet, desktop
+5. Carga rápido (< 2MB página completa)
+6. Tiene modo claro y oscuro funcional
+7. Cumple WCAG nivel A mínimo
+8. Está completamente documentado
+9. Está desplegado y accesible por URL pública
 
 ---
 
 ### **Recursos recomendados**
 
 **Herramientas desarrollo:**
+
 * Validación HTML: https://validator.w3.org/
 * Validación CSS: https://jigsaw.w3.org/css-validator/
 * Lighthouse: Chrome DevTools
 
 **Plataformas de despliegue:**
+
 * Vercel: https://vercel.com/ (recomendado)
 * Netlify: https://www.netlify.com/
 * Firebase Hosting: https://firebase.google.com/
 * GitHub Pages: https://pages.github.com/
 
 **Accesibilidad:**
+
 * WAVE: https://wave.webaim.org/
 * axe DevTools: Extensión navegador
 * Contrast Checker: https://webaim.org/resources/contrastchecker/
@@ -289,11 +295,13 @@ Tu proyecto será **excelente** si:
 * NVDA: https://www.nvaccess.org/
 
 **Optimización:**
+
 * Squoosh: https://squoosh.app/
 * TinyPNG: https://tinypng.com/
 * SVGO: https://jakearchibald.github.io/svgomg/
 
 **Documentación:**
+
 * MDN: https://developer.mozilla.org/es/
 * Lenguaje CSS: https://lenguajecss.com/
 * Lenguaje HTML: https://lenguajehtml.com/
