@@ -33,10 +33,10 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 * [Fase 4 (Responsive design y layouts)](proyecto-maquetar-para-dar-forma-fase-4.md)
 * [Fase 5 (Multimedia optimizada)](proyecto-maquetar-para-dar-forma-fase-5.md)
 
-**Semana 4:** Fase 6 (Temas y modo oscuro)
+**Semana 4:**
 * [Fase 6 (Temas y modo oscuro)](proyecto-maquetar-para-dar-forma-fase-6.md)
 
-**Semana 5:** Fase 7 (Accesibilidad + Entrega final con URL desplegada)
+**Semana 5:**
 * [Fase 7 (Accesibilidad + Entrega final con URL deplegada)](proyecto-maquetar-para-dar-forma-fase-7.md)
 
 
