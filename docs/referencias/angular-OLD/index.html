@@ -19,7 +19,7 @@
     
     
       
-        <title>Angular - Diseño de Interfaces Web - Apuntes y referencias</title>
+        <title>angular OLD - Diseño de Interfaces Web - Apuntes y referencias</title>
       
     
     
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Angular
+              angular OLD
             
           </span>
         </div>
@@ -734,7 +734,7 @@
 
 
 
-  <h1>Angular</h1>
+  <h1>angular OLD</h1>
 
 <h2 id="6-css-en-angular-viewencapsulation-y-arquitectura">6. CSS en Angular: ViewEncapsulation y arquitectura</h2>
 <h3 id="como-angular-maneja-los-estilos">Cómo Angular maneja los estilos</h3>
@@ -893,7 +893,7 @@ function Card({ title, highlighted }) {
   border: 2px solid blue;
 }
 </code></pre>
-<pre><code>// Card.jsx
+<pre><code class="language-jsx">// Card.jsx
 import styles from './Card.module.css';
 
 function Card({ title, highlighted }) {
@@ -939,10 +939,11 @@ function Card({ title, highlighted }) {
   return (
     &lt;div 
       className={styles.card}
-      style= {{ 
-        ' --card-spacing': `${spacing}rem`,
-        ' --accent-color': accentColor
+      style={{ 
+        '--card-spacing': `${spacing}rem`,
+        '--accent-color': accentColor
       }}
+
     &gt;
       &lt;h2 className={styles.title}&gt;{title}&lt;/h2&gt;
     &lt;/div&gt;
