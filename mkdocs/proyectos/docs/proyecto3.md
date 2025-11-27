@@ -1,3 +1,11 @@
+---
+hide:
+  - navigation
+---
+
+
+![](assets/referencias.jpg)
+
 # **Proyecto 3: Maquetar para dar forma**
 
 ### **¿De qué va esto?**
