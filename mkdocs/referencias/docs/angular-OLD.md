@@ -249,16 +249,15 @@ El navegador verá algo como:
 
 La mejor forma de pasar valores dinámicos desde React a CSS es usando custom properties:
 
-
-```
+```jsx
 function Card({ title, spacing, accentColor }) {
   return (
     <div 
       className={styles.card}
-      style={{ 
-        '--card-spacing': `${spacing}rem`,
-        '--accent-color': accentColor
-      }}
+      style= { 
+        ' --card-spacing': ${spacing}rem,
+        ' --accent-color': accentColor
+      }
       
     >
       <h2 className={styles.title}>{title}</h2>
@@ -266,7 +265,7 @@ function Card({ title, spacing, accentColor }) {
   );
 }
 ```
-
+* OJO, el style= lleva doble { 
 
 ```css
 /* Card.module.css */
