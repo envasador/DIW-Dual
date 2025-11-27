@@ -935,14 +935,14 @@ function Card({ title, highlighted }) {
 </code></pre>
 <h3 id="variables-css-react-valores-dinamicos">Variables CSS + React: Valores dinámicos</h3>
 <p>La mejor forma de pasar valores dinámicos desde React a CSS es usando custom properties:</p>
-<pre><code>function Card({ title, spacing, accentColor }) {
+<pre><code class="language-jsx">function Card({ title, spacing, accentColor }) {
   return (
     &lt;div 
       className={styles.card}
-      style={{ 
-        '--card-spacing': `${spacing}rem`,
-        '--accent-color': accentColor
-      }}
+      style= { 
+        ' --card-spacing': ${spacing}rem,
+        ' --accent-color': accentColor
+      }
 
     &gt;
       &lt;h2 className={styles.title}&gt;{title}&lt;/h2&gt;
@@ -950,6 +950,9 @@ function Card({ title, highlighted }) {
   );
 }
 </code></pre>
+<ul>
+<li>OJO, el style= lleva doble { </li>
+</ul>
 <pre><code class="language-css">/* Card.module.css */
 .card {
   padding: var(--card-spacing, 1rem);
