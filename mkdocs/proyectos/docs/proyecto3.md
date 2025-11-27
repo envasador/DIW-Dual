@@ -6,7 +6,7 @@ Ya tienes el diseño visual definido en Figma. Ahora toca que **funcione en el n
 
 Este proyecto transforma tus mockups de alta fidelidad en código HTML/CSS real, integrado en Angular. Aquí convertirás cada decisión visual en arquitectura técnica: variables CSS que escalan, componentes reutilizables que mantienen la coherencia, layouts responsive que funcionan en cualquier dispositivo, imágenes optimizadas que cargan rápido, y una base de accesibilidad que garantiza que tu interfaz sea usable por todas las personas.
 
-No se trata solo de que "se vea igual", sino de construir código profesional, mantenible y escalable. Implementarás una metodología CSS (BEM), organizarás tus estilos siguiendo principios de arquitectura (ITCSS), crearás un sistema de componentes documentado, optimizarás todos los assets multimedia, implementarás responsive design con mobile-first, añadirás modo oscuro, y verificarás que todo sea accesible según WCAG.
+No se trata solo de que "se vea igual", sino de construir código profesional, mantenible y escalable. Implementarás una metodología CSS (BEM), organizarás tus estilos siguiendo principios de arquitectura ([ITCSS](https://dev.to/ignacio_cuadra/itcss-arquitectura-css-3p4b), crearás un sistema de componentes documentado, optimizarás todos los assets multimedia, implementarás responsive design con mobile-first o desktop-first, añadirás modo oscuro, y verificarás que todo sea accesible según WCAG.
 
 Al final de este proyecto tendrás una aplicación Angular completamente funcional, desplegada en producción, con código limpio y bien documentado. Y lo harás siguiendo estándares profesionales: cada línea de CSS tiene un propósito, cada componente es reutilizable, cada imagen está optimizada, y cada interacción es accesible.
 
@@ -26,7 +26,7 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 * **Fase 5:** Multimedia optimizada
 * **Fase 6:** Temas y modo oscuro
 
-#### **Bloque 3: Accesibilidad y entrega (1 semana después)**
+#### **Bloque 3: Accesibilidad y entrega (1-2 semana después)**
 * **Fase 7:** Accesibilidad web + Entrega final con URL desplegada
 
 ---

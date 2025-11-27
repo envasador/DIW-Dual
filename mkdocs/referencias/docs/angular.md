@@ -198,7 +198,7 @@ CSS Modules viene integrado en Create React App, Vite y la mayoría de bundlers 
 }
 ```
 
-```jsx
+```
 // Card.jsx
 import styles from './Card.module.css';
 
@@ -249,7 +249,7 @@ El navegador verá algo como:
 
 La mejor forma de pasar valores dinámicos desde React a CSS es usando custom properties:
 
-```jsx
+```
 function Card({ title, spacing, accentColor }) {
   return (
     <div 
