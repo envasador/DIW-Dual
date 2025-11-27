@@ -893,7 +893,7 @@ function Card({ title, highlighted }) {
   border: 2px solid blue;
 }
 </code></pre>
-<pre><code class="language-jsx">// Card.jsx
+<pre><code>// Card.jsx
 import styles from './Card.module.css';
 
 function Card({ title, highlighted }) {
@@ -935,7 +935,7 @@ function Card({ title, highlighted }) {
 </code></pre>
 <h3 id="variables-css-react-valores-dinamicos">Variables CSS + React: Valores dinámicos</h3>
 <p>La mejor forma de pasar valores dinámicos desde React a CSS es usando custom properties:</p>
-<pre><code class="language-jsx">function Card({ title, spacing, accentColor }) {
+<pre><code>function Card({ title, spacing, accentColor }) {
   return (
     &lt;div 
       className={styles.card}
