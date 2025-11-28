@@ -45,7 +45,7 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 
 * [Fase 1: Fundamentos y arquitectura CSS](proyecto-maquetar-para-dar-forma-fase-1.md)
 * [Fase 2: HTML semántico y estructura](proyecto-maquetar-para-dar-forma-fase-2.md)
-* [Fase 3: Sistema de componentes visuales]()
+* [Fase 3: Sistema de componentes visuales](proyecto-maquetar-para-dar-forma-fase-2.md)
 
 **Bloque 2: Responsive y optimización:**
 
