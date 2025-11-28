@@ -39,7 +39,7 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 
 **Bloque 1: Fundamentos:**
 
-* [Fase 1: Fundamentos y arquitectura CSS.](fase-1-fundamentos-arquitectura-css.md)
+* [Fase 1: Fundamentos y arquitectura CSS.](proyecto-maquetar-para-dar-forma-fase-1.md)
 * [Fase 2: HTML semántico y estructura.](proyecto-maquetar-para-dar-forma-fase-2.md)
 * [Fase 3: Sistema de componentes visuales.](proyecto-maquetar-para-dar-forma-fase-3.md)
 
@@ -52,6 +52,8 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 **Bloque 3: Accesibilidad:**
 
 * [Fase 7: Accesibilidad web](proyecto-maquetar-para-dar-forma-fase-7.md)
+
+---
 
 ### **Resultados de Aprendizaje y Criterios de Evaluación**
 
