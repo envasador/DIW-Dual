@@ -76,9 +76,9 @@ Crea la carpeta `src/styles/01-tools/` y dentro el archivo `_mixins.scss`:
 ### ***3\. Organización de archivos ITCSS***
 
 Crea la estructura completa de carpetas en `src/styles/`:
-
+```
+/* Esto es un ejemplo, hay muchas estructuras así */
 styles/
-
 ├── 00-settings/     (Variables globales)
 │   └── \_variables.scss
 ├── 01-tools/        (Mixins y funciones)
@@ -98,6 +98,7 @@ styles/
 ├── 06-utilities/    (Clases utilitarias)
 │   └── \_utilities.scss
 └── styles.scss      (Archivo principal que importa todo)
+```
 
 En `styles.scss` importa todo en orden:
 
@@ -127,32 +128,16 @@ En `styles.scss` importa todo en orden:
 
 ### ***4\. Reset CSS***
 
-En `02-generic/_reset.scss` crea un reset básico. Como mínimo:
-
-* Box-sizing border-box para todos los elementos
-* Margin y padding 0 por defecto
-* List-style none para listas
-* Quitar estilos por defecto de botones
-
+En `02-generic/_reset.scss` crea un reset básico.
 Puedes usar un reset existente como Normalize.css o crear el tuyo propio.
 
 ### ***5\. Estilos base de elementos***
 
 En `03-elements/` define estilos base para elementos HTML sin clases:
 
-**\_html.scss:** Define html con font-size base (generalmente 16px o 100%), y body con font-family, line-height, color de texto, y color de fondo.
-
-**\_typography.scss:** Define estilos para h1 a h6, párrafos, strong, em. Usa tus variables de tamaño y peso tipográfico.
-
-**\_links.scss:** Define estilos para enlaces (a) con color, text-decoration, y estados hover/focus.
-
 ### ***6\. Sistema de Grid***
 
-En `04-layout/_grid.scss` crea un sistema de grid básico usando CSS Grid:
-
-* Un contenedor .container con max-width y padding lateral
-* Un grid .grid con display grid y gap entre elementos
-* Modificadores para número de columnas (.grid--2, .grid--3, .grid--4)
+En `04-layout/_grid.scss` crea un sistema de grid básico usando CSS Grid. También puedes usar Flex y otros métodos de Layout.
 
 ### ***7\. Documentación en DOCUMENTACION.md***
 
