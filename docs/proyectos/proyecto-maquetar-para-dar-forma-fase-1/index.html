@@ -642,26 +642,28 @@
 <p><strong>Mixin centrar:</strong> Crea mixins para centrar elementos. Uno con position absolute (center-absolute) y otro con flexbox (center-flex).</p>
 <h3 id="3-organizacion-de-archivos-itcss"><strong><em>3. Organización de archivos ITCSS</em></strong></h3>
 <p>Crea la estructura completa de carpetas en <code>src/styles/</code>:</p>
-<p>styles/</p>
-<p>├── 00-settings/     (Variables globales)
-│   └── _variables.scss
+<pre><code>/* Esto es un ejemplo, hay muchas estructuras así */
+styles/
+├── 00-settings/     (Variables globales)
+│   └── \_variables.scss
 ├── 01-tools/        (Mixins y funciones)
-│   └── _mixins.scss
+│   └── \_mixins.scss
 ├── 02-generic/      (Reset CSS y normalize)
-│   └── _reset.scss
+│   └── \_reset.scss
 ├── 03-elements/     (Estilos base de HTML)
-│   ├── _html.scss
-│   ├── _typography.scss
-│   └── _links.scss
+│   ├── \_html.scss
+│   ├── \_typography.scss
+│   └── \_links.scss
 ├── 04-layout/       (Estructura de página)
-│   ├── _grid.scss
-│   ├── _container.scss
-│   └── _spacing.scss
-├── 05-components/   (Componentes UI * aquí irán tus componentes)
-│   └── (vacío por ahora, lo llenas en Fase 3)
+│   ├── \_grid.scss
+│   ├── \_container.scss
+│   └── \_spacing.scss
+├── 05-components/   (Componentes UI \* aquí irán tus componentes)
+│   └── (vacío por ahora, lo llenas en Fase 3\)
 ├── 06-utilities/    (Clases utilitarias)
-│   └── _utilities.scss
-└── styles.scss      (Archivo principal que importa todo)</p>
+│   └── \_utilities.scss
+└── styles.scss      (Archivo principal que importa todo)
+</code></pre>
 <p>En <code>styles.scss</code> importa todo en orden:</p>
 <pre><code class="language-css">@import '00-settings/variables';
 
@@ -685,26 +687,12 @@
 </code></pre>
 <p><strong>Importante:</strong> Este orden es crítico. Las variables primero, luego mixins, luego reset, y así sucesivamente aumentando la especificidad.</p>
 <h3 id="4-reset-css"><strong><em>4. Reset CSS</em></strong></h3>
-<p>En <code>02-generic/_reset.scss</code> crea un reset básico. Como mínimo:</p>
-<ul>
-<li>Box-sizing border-box para todos los elementos</li>
-<li>Margin y padding 0 por defecto</li>
-<li>List-style none para listas</li>
-<li>Quitar estilos por defecto de botones</li>
-</ul>
-<p>Puedes usar un reset existente como Normalize.css o crear el tuyo propio.</p>
+<p>En <code>02-generic/_reset.scss</code> crea un reset básico.
+Puedes usar un reset existente como Normalize.css o crear el tuyo propio.</p>
 <h3 id="5-estilos-base-de-elementos"><strong><em>5. Estilos base de elementos</em></strong></h3>
 <p>En <code>03-elements/</code> define estilos base para elementos HTML sin clases:</p>
-<p><strong>_html.scss:</strong> Define html con font-size base (generalmente 16px o 100%), y body con font-family, line-height, color de texto, y color de fondo.</p>
-<p><strong>_typography.scss:</strong> Define estilos para h1 a h6, párrafos, strong, em. Usa tus variables de tamaño y peso tipográfico.</p>
-<p><strong>_links.scss:</strong> Define estilos para enlaces (a) con color, text-decoration, y estados hover/focus.</p>
 <h3 id="6-sistema-de-grid"><strong><em>6. Sistema de Grid</em></strong></h3>
-<p>En <code>04-layout/_grid.scss</code> crea un sistema de grid básico usando CSS Grid:</p>
-<ul>
-<li>Un contenedor .container con max-width y padding lateral</li>
-<li>Un grid .grid con display grid y gap entre elementos</li>
-<li>Modificadores para número de columnas (.grid--2, .grid--3, .grid--4)</li>
-</ul>
+<p>En <code>04-layout/_grid.scss</code> crea un sistema de grid básico usando CSS Grid. También puedes usar Flex y otros métodos de Layout.</p>
 <h3 id="7-documentacion-en-documentacionmd"><strong><em>7. Documentación en DOCUMENTACION.md</em></strong></h3>
 <p>Crea el archivo <code>docs/DOCUMENTACION.md</code> y escribe la <strong>Sección 1: Arquitectura CSS y comunicación visual</strong>.</p>
 <p>Esta sección debe incluir:</p>
