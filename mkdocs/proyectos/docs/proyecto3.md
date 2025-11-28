@@ -51,7 +51,7 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 
 **Bloque 3: Accesibilidad:**
 
-* [Fase 7: Accesibilidad web](proyecto-maquetar-para-dar-forma-fase-7.md)
+* [Fase 7: Accesibilidad web.](proyecto-maquetar-para-dar-forma-fase-7.md)
 
 ---
 
