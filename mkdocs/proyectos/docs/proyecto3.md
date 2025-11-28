@@ -20,8 +20,6 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 
 **Requisito obligatorio:** La aplicación debe estar **desplegada y accesible** mediante una URL pública.
 
----
-
 ### **Cronograma**
 
 #### **Bloque 1: Fundamentos (hasta 18 diciembre)**
@@ -37,27 +35,23 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 #### **Bloque 3: Accesibilidad y entrega (1-2 semana después)**
 * **Fase 7:** Accesibilidad web + Entrega final con URL desplegada
 
----
-
 ### **Fases del proyecto**
 
 **Bloque 1: Fundamentos:**
 
 * [Fase 1: Fundamentos y arquitectura CSS](proyecto-maquetar-para-dar-forma-fase-1.md)
 * [Fase 2: HTML semántico y estructura](proyecto-maquetar-para-dar-forma-fase-2.md)
-* [Fase 3: Sistema de componentes visuales](proyecto-maquetar-para-dar-forma-fase-2.md)
+* [Fase 3: Sistema de componentes visuales](proyecto-maquetar-para-dar-forma-fase-3.md)
 
 **Bloque 2: Responsive y optimización:**
 
-* [Fase 4: Responsive design y layouts]()
-* [Fase 5: Multimedia optimizada]()
-* [Fase 6: Temas y modo oscuro]()
+* [Fase 4: Responsive design y layouts](proyecto-maquetar-para-dar-forma-fase-4.md)
+* [Fase 5: Multimedia optimizada](proyecto-maquetar-para-dar-forma-fase-5.md)
+* [Fase 6: Temas y modo oscuro](proyecto-maquetar-para-dar-forma-fase-6.md)
 
 **Bloque 3: Accesibilidad:**
 
-* [Fase 7: Accesibilidad web]()
-
----
+* [Fase 7: Accesibilidad web](proyecto-maquetar-para-dar-forma-fase-7.md)
 
 ### **Resultados de Aprendizaje y Criterios de Evaluación**
 
@@ -286,13 +280,6 @@ Tu proyecto será **excelente** si:
 * Validación HTML: https://validator.w3.org/
 * Validación CSS: https://jigsaw.w3.org/css-validator/
 * Lighthouse: Chrome DevTools
-
-**Plataformas de despliegue:**
-
-* Vercel: https://vercel.com/ (recomendado)
-* Netlify: https://www.netlify.com/
-* Firebase Hosting: https://firebase.google.com/
-* GitHub Pages: https://pages.github.com/
 
 **Accesibilidad:**
 
