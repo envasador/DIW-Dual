@@ -41,21 +41,21 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 
 ### **Fases del proyecto**
 
-**Bloque 1 * Fundamentos:**
+**Bloque 1: Fundamentos:**
 
-* [Fase 1: Fundamentos y arquitectura CSS](fase-1-fundamentos-arquitectura-css.md)
-* [Fase 2: HTML semántico y estructura](fase-2-html-semantico-estructura.md)
-* [Fase 3: Sistema de componentes visuales](fase-3-sistema-componentes-visuales.md)
+* [Fase 1: Fundamentos y arquitectura CSS](proyecto-maquetar-para-dar-forma-fase-1.md)
+* [Fase 2: HTML semántico y estructura](proyecto-maquetar-para-dar-forma-fase-2.md)
+* [Fase 3: Sistema de componentes visuales]()
 
-**Bloque 2 * Responsive y optimización:**
+**Bloque 2: Responsive y optimización:**
 
-* [Fase 4: Responsive design y layouts](fase-4-responsive-design-layouts.md)
-* [Fase 5: Multimedia optimizada](fase-5-multimedia-optimizada.md)
-* [Fase 6: Temas y modo oscuro](fase-6-temas-modo-oscuro.md)
+* [Fase 4: Responsive design y layouts]()
+* [Fase 5: Multimedia optimizada]()
+* [Fase 6: Temas y modo oscuro]()
 
-**Bloque 3 * Accesibilidad:**
+**Bloque 3: Accesibilidad:**
 
-* [Fase 7: Accesibilidad web](fase-7-accesibilidad-web.md)
+* [Fase 7: Accesibilidad web]()
 
 ---
 
@@ -244,7 +244,7 @@ Las rúbricas están organizadas por cada criterio de evaluación. Cada criterio
     * CSS validado (W3C)
 
 2. **Aplicación desplegada**
-    * ✅ **URL pública funcional**
+    * **URL pública funcional**
     * Accesible desde cualquier navegador
     * Lighthouse Performance > 80
     * Lighthouse Accessibility > 90

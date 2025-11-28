@@ -23,37 +23,11 @@ Crea la carpeta `src/styles/00-settings/` y dentro el archivo `_variables.scss` 
 
 **Variables de color:** Define tu paleta completa. Necesitas colores primarios (el color principal de tu marca), secundarios (color de apoyo), neutrales (grises del 50 al 900 para textos y fondos), y semánticos (success verde, error rojo, warning naranja, info azul).
 
-Ejemplo de estructura:
-
-color-primary: tu-color-principal
-
-color-primary-light: versión más clara
-
-color-primary-dark: versión más oscura
-
-color-secondary: tu-color-secundario
-
-color-neutral-50: casi blanco
-
-color-neutral-100: gris muy claro
-
-...hasta...
-
-color-neutral-900: casi negro
-
-color-success: verde
-
-color-error: rojo
-
-color-warning: naranja
-
-color-info: azul
-
 **Escala tipográfica:** Define las fuentes que usarás y los tamaños. La escala debe ser coherente (usa una escala modular, por ejemplo con ratio 1.25). Necesitas definir familias (font-primary para texto, font-secondary si usas otra para títulos), tamaños desde xs hasta 5xl, pesos (light, regular, medium, semibold, bold), y line-heights (tight para títulos, normal para párrafos, relaxed para textos largos).
 
 **Sistema de espaciado:** Crea una escala basada en 4px u 8px. Define spacing-1 (4px), spacing-2 (8px), spacing-3 (12px), spacing-4 (16px), spacing-5 (20px), y así hasta spacing-24 (96px). Esto te permite mantener consistencia en márgenes y paddings.
 
-**Breakpoints:** Define los puntos de quiebre para responsive. Usa al menos: sm (640px para móvil grande), md (768px para tablet), lg (1024px para desktop), xl (1280px para desktop grande).
+**Breakpoints genéricos:** Define los puntos de quiebre para responsive. Usa al menos: sm (640px para móvil grande), md (768px para tablet), lg (1024px para desktop), xl (1280px para desktop grande).
 
 **Elevaciones (sombras):** Define sombras de diferentes intensidades: shadow-sm (sombra sutil), shadow-md (sombra media), shadow-lg (sombra grande), shadow-xl (sombra muy grande). Usa rgba con transparencia para que funcionen en cualquier fondo.
 
@@ -63,66 +37,12 @@ color-info: azul
 
 ### ***2\. Mixins y funciones útiles***
 
-Crea la carpeta `src/styles/01-tools/` y dentro el archivo `_mixins.scss`:
-
-**Mixin responsive:** Crea un mixin que te permita escribir media queries fácilmente. La idea es que en lugar de escribir "@media (min-width: 768px)" cada vez, puedas escribir "@include respond-to('md')" que es más legible. El mixin debe aceptar 'sm', 'md', 'lg', 'xl' y aplicar el breakpoint correspondiente.
-
-**Mixin truncar texto:** Crea dos mixins útiles. Uno llamado "truncate" que corta texto en una línea con puntos suspensivos (usa overflow hidden, text-overflow ellipsis, white-space nowrap). Otro llamado "line-clamp" que acepta un número de líneas y corta el texto después de esas líneas (usa display \-webkit-box, \-webkit-line-clamp, \-webkit-box-orient vertical).
-
-**Mixin aspect-ratio:** Crea un mixin para mantener proporciones de elementos (útil para imágenes y videos). Debe aceptar ancho y alto, y calcular el padding-top correcto para mantener la proporción.
-
-**Mixin centrar:** Crea mixins para centrar elementos. Uno con position absolute (center-absolute) y otro con flexbox (center-flex).
+Crea la carpeta `src/styles/01-tools/` y dentro el archivo `_mixins.scss`, con al menos 3 mixins reutilizables.
 
 ### ***3\. Organización de archivos ITCSS***
 
-Crea la estructura completa de carpetas en `src/styles/`:
-```
-/* Esto es un ejemplo, hay muchas estructuras así */
-styles/
-├── 00-settings/     (Variables globales)
-│   └── \_variables.scss
-├── 01-tools/        (Mixins y funciones)
-│   └── \_mixins.scss
-├── 02-generic/      (Reset CSS y normalize)
-│   └── \_reset.scss
-├── 03-elements/     (Estilos base de HTML)
-│   ├── \_html.scss
-│   ├── \_typography.scss
-│   └── \_links.scss
-├── 04-layout/       (Estructura de página)
-│   ├── \_grid.scss
-│   ├── \_container.scss
-│   └── \_spacing.scss
-├── 05-components/   (Componentes UI \* aquí irán tus componentes)
-│   └── (vacío por ahora, lo llenas en Fase 3\)
-├── 06-utilities/    (Clases utilitarias)
-│   └── \_utilities.scss
-└── styles.scss      (Archivo principal que importa todo)
-```
-
-En `styles.scss` importa todo en orden:
-
-```css
-@import '00-settings/variables';
-
-@import '01-tools/mixins';
-
-@import '02-generic/reset';
-
-@import '03-elements/html';
-
-@import '03-elements/typography';
-
-@import '03-elements/links';
-
-@import '04-layout/grid';
-
-@import '04-layout/container';
-
-@import '04-layout/spacing';
-
-@import '06-utilities/utilities';
-```
+* Crea la estructura completa de carpetas en `src/styles/`.
+* En `styles.scss` importa todo en orden
 
 **Importante:** Este orden es crítico. Las variables primero, luego mixins, luego reset, y así sucesivamente aumentando la especificidad.
 
