@@ -14,7 +14,6 @@ En esta fase implementarás un sistema completo de temas que permita cambiar ent
 
 Crearás un sistema basado en CSS Custom Properties (variables CSS) que permita cambiar todos los colores de la aplicación dinámicamente. Implementarás un theme switcher funcional con persistencia en localStorage, detectarás la preferencia del sistema operativo, y verificarás que ambos temas cumplan con los requisitos mínimos de contraste.
 
-
 ## **TAREAS**
 
 ### **1. Sistema de temas con CSS Custom Properties**

@@ -110,8 +110,6 @@ Esta sección debe incluir:
 
 **7.9 Checklist de verificación:** Lista completa cubriendo HTML semántico, contraste, navegación teclado, contenido, multimedia, y ARIA.
 
----
-
 ## **ENTREGABLES FASE 7**
 
 - Contraste verificado y corregido (4.5:1 texto, 3:1 UI)
@@ -129,7 +127,6 @@ Esta sección debe incluir:
 - **URL visible en README.md y DOCUMENTACION.md**
 - Sección 7 del `docs/DOCUMENTACION.md` completada
 
----
 
 ## **REQUISITO OBLIGATORIO FINAL**
 

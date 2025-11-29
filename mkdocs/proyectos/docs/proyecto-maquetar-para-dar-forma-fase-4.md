@@ -2,6 +2,7 @@
 hide:
   - navigation
 ---
+
 # **FASE 4: RESPONSIVE DESIGN Y LAYOUTS COMPLETOS**
 
 **Criterios:** RA2.c, RA2.d, RA2.f  

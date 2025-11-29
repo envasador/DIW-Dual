@@ -8,15 +8,11 @@ hide:
 **Criterios:** RA3.b, RA3.c, RA3.d, RA3.f, RA4.a, RA4.e  
 **Entrega:** Después de Navidad
 
----
-
 ## **OBJETIVOS DE LA FASE**
 
 En esta fase optimizarás todos los recursos multimedia de tu aplicación para que cargue rápido sin sacrificar calidad visual. Aprenderás a elegir los formatos correctos, usar herramientas de optimización profesionales, implementar imágenes responsive con técnicas modernas, y crear animaciones CSS fluidas.
 
 No se trata solo de "meter imágenes", sino de hacerlo bien: formato WebP con fallback, múltiples tamaños para diferentes dispositivos, lazy loading para mejorar el rendimiento, SVGs optimizados, y animaciones que corren a 60fps usando transform y opacity.
-
----
 
 ## **TAREAS**
 
@@ -133,7 +129,6 @@ Esta sección debe incluir:
 
 **5.6 Animaciones CSS:** Lista las animaciones implementadas, describe cada una, y muestra el código de los `@keyframes`. Explica por qué solo animas transform y opacity.
 
----
 
 ## **ENTREGABLES FASE 5**
 
