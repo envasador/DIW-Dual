@@ -303,4 +303,3 @@ Tu proyecto será **excelente** si:
 * Lenguaje CSS: https://lenguajecss.com/
 * Lenguaje HTML: https://lenguajehtml.com/
 * Markdown Guide: https://www.markdownguide.org/
-<!-- Actualizado -->
