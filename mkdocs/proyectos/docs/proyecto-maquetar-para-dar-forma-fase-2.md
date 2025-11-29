@@ -3,22 +3,16 @@ hide:
   - navigation
 ---
 
-## **Fases del proyecto**
-
 # **FASE 2: HTML SEMÁNTICO Y COMPONENTES DE LAYOUT**
 
 **Criterios:** RA2.f, RA2.a  
 **Entrega:** 18 de diciembre
-
----
 
 ## **OBJETIVOS DE LA FASE**
 
 En esta fase crearás la estructura semántica de tu aplicación y los componentes de layout que enmarcan todo el contenido. No estamos haciendo páginas completas todavía, sino construyendo los "contenedores principales" que se usarán en toda la aplicación: el header, el footer, la navegación principal, y cualquier sidebar o estructura fija.
 
 Estos componentes de layout son especiales porque aparecen en (casi) todas las páginas y definen la estructura general. Un header bien hecho se usa igual en home, en listados, en detalle. Por eso es crítico hacerlos bien desde el principio, con HTML semántico impecable y pensando en que sean reutilizables.
-
----
 
 ## **TAREAS**
 
@@ -94,7 +88,6 @@ Esta sección debe incluir:
 
 **2.3 Estructura de formularios:** Muestra tu estructura de formularios explicando el uso de fieldset, legend, y la asociación de labels con inputs (for e id) o como hemos visto en clase. Incluye un ejemplo de código de tu componente form-input.
 
----
 
 ## **ENTREGABLES FASE 2**
 

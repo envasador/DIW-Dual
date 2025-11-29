@@ -3,8 +3,6 @@ hide:
   - navigation
 ---
 
-## **Fases del proyecto**
-
 # **FASE 1: FUNDAMENTOS Y ARQUITECTURA CSS**
 
 Criterios: RA1.a, RA2.a, RA2.c, RA1.f Entrega: 18 de diciembre

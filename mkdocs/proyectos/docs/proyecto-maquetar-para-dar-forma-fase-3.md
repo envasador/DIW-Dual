@@ -3,14 +3,10 @@ hide:
   - navigation
 ---
 
-## **Fases del proyecto**
-
 # **FASE 3: COMPONENTES UI BÁSICOS**
 
 **Criterios:** RA2.g, RA2.e, RA2.f, RA1.f  
 **Entrega:** 18 de diciembre
-
----
 
 ## **OBJETIVOS DE LA FASE**
 
@@ -20,7 +16,6 @@ La clave aquí es que cada componente debe tener todas sus variantes, todos sus 
 
 También crearás un Style Guide: una página especial donde muestras TODOS tus componentes con TODAS sus variantes. Esto sirve como documentación visual y para testing rápido.
 
----
 
 ## **TAREAS**
 
@@ -188,8 +183,6 @@ Esta sección debe incluir:
 **3.2 Nomenclatura y metodología:** Muestra ejemplos reales de tu nomenclatura BEM aplicada en los componentes. Explica tu estrategia: qué es block vs element, cuándo usas modificadores vs clases de estado.
 
 **3.3 Style Guide:** Incluye capturas de pantalla de tu página de Style Guide mostrando los componentes. Explica para qué sirve (documentación visual, testing, referencia).
-
----
 
 ## **ENTREGABLES FASE 3**
 
