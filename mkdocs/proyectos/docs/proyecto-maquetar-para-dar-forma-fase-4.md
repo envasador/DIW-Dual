@@ -98,7 +98,3 @@ Esta sección debe incluir:
 - Mínimo 3 páginas completas responsive
 - Navegación mobile completamente funcional
 - Sección 4 del `docs/DOCUMENTACION.md` completada con capturas
-
-## **NOTA SOBRE LA ENTREGA FINAL**
-
-La aplicación 100% funcional con **URL desplegada** se entrega en la **Fase 7** (Accesibilidad web + Entrega final). Es un requisito obligatorio de esa última fase.
