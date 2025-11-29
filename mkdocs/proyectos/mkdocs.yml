@@ -8,11 +8,7 @@ nav:
   - Inicio: index.md
   - Proyecto 1: proyecto1.md
   - Proyecto 2: proyecto2.md
-  - Proyecto 3:
-      - Descripción: proyecto3.md
-      - Fase 1: proyecto-maquetar-para-dar-forma-fase-1.md
-      - Fase 2: proyecto-maquetar-para-dar-forma-fase-2.md
-      - Fase 3: proyecto-maquetar-para-dar-forma-fase-3.md
+  - Proyecto 3: proyecto3.md
 
 
 extra:
