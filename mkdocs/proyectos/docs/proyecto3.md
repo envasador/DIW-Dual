@@ -45,13 +45,13 @@ Al final de este proyecto tendrás una aplicación Angular completamente funcion
 
 **Bloque 2: Responsive y optimización:**
 
-* [Fase 4: Responsive design y layouts.](proyecto-maquetar-para-dar-forma-fase-4.md)
-* [Fase 5: Multimedia optimizada.](proyecto-maquetar-para-dar-forma-fase-5.md)
-* [Fase 6: Temas y modo oscuro.](proyecto-maquetar-para-dar-forma-fase-6.md)
+* [Fase 4: Responsive design y layouts.]()
+* [Fase 5: Multimedia optimizada.]()
+* [Fase 6: Temas y modo oscuro.]()
 
 **Bloque 3: Accesibilidad:**
 
-* [Fase 7: Accesibilidad web.](proyecto-maquetar-para-dar-forma-fase-7.md)
+* [Fase 7: Accesibilidad web.]()
 
 ---
 
