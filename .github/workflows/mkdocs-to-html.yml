@@ -67,12 +67,12 @@ jobs:
             "<p align='\''center'\''>\n  <img alt='\''$1'\'' src='\''$2'\''>\n</p>"
           }gex;
           ' {} +
-
+          
       - name: Generate mkdocs
         run: |-
           cd mkdocs/${{ matrix.dirs }}
-          mkdocs build
-      
+          mkdocs build --site-dir ../../docs/${{ matrix.dirs }}
+
       - name: Remove PDF
         uses: JesseTG/rm@v1.0.2
         with:
