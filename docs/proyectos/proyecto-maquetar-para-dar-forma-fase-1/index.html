@@ -615,76 +615,19 @@
 <h3 id="1-sistema-de-design-tokens-en-scss"><strong><em>1. Sistema de Design Tokens en SCSS</em></strong></h3>
 <p>Crea la carpeta <code>src/styles/00-settings/</code> y dentro el archivo <code>_variables.scss</code> con todas tus variables:</p>
 <p><strong>Variables de color:</strong> Define tu paleta completa. Necesitas colores primarios (el color principal de tu marca), secundarios (color de apoyo), neutrales (grises del 50 al 900 para textos y fondos), y semánticos (success verde, error rojo, warning naranja, info azul).</p>
-<p>Ejemplo de estructura:</p>
-<p>color-primary: tu-color-principal</p>
-<p>color-primary-light: versión más clara</p>
-<p>color-primary-dark: versión más oscura</p>
-<p>color-secondary: tu-color-secundario</p>
-<p>color-neutral-50: casi blanco</p>
-<p>color-neutral-100: gris muy claro</p>
-<p>...hasta...</p>
-<p>color-neutral-900: casi negro</p>
-<p>color-success: verde</p>
-<p>color-error: rojo</p>
-<p>color-warning: naranja</p>
-<p>color-info: azul</p>
 <p><strong>Escala tipográfica:</strong> Define las fuentes que usarás y los tamaños. La escala debe ser coherente (usa una escala modular, por ejemplo con ratio 1.25). Necesitas definir familias (font-primary para texto, font-secondary si usas otra para títulos), tamaños desde xs hasta 5xl, pesos (light, regular, medium, semibold, bold), y line-heights (tight para títulos, normal para párrafos, relaxed para textos largos).</p>
 <p><strong>Sistema de espaciado:</strong> Crea una escala basada en 4px u 8px. Define spacing-1 (4px), spacing-2 (8px), spacing-3 (12px), spacing-4 (16px), spacing-5 (20px), y así hasta spacing-24 (96px). Esto te permite mantener consistencia en márgenes y paddings.</p>
-<p><strong>Breakpoints:</strong> Define los puntos de quiebre para responsive. Usa al menos: sm (640px para móvil grande), md (768px para tablet), lg (1024px para desktop), xl (1280px para desktop grande).</p>
+<p><strong>Breakpoints genéricos:</strong> Define los puntos de quiebre para responsive. Usa al menos: sm (640px para móvil grande), md (768px para tablet), lg (1024px para desktop), xl (1280px para desktop grande).</p>
 <p><strong>Elevaciones (sombras):</strong> Define sombras de diferentes intensidades: shadow-sm (sombra sutil), shadow-md (sombra media), shadow-lg (sombra grande), shadow-xl (sombra muy grande). Usa rgba con transparencia para que funcionen en cualquier fondo.</p>
 <p><strong>Bordes y radios:</strong> Define grosores de borde (thin 1px, medium 2px, thick 4px) y radios de borde (desde sm 2px hasta full 9999px para círculos).</p>
 <p><strong>Transiciones:</strong> Define duraciones estándar: fast (150ms para cambios rápidos), base (300ms para la mayoría), slow (500ms para transiciones complejas). Usa ease-in-out para transiciones suaves.</p>
 <h3 id="2-mixins-y-funciones-utiles"><strong><em>2. Mixins y funciones útiles</em></strong></h3>
-<p>Crea la carpeta <code>src/styles/01-tools/</code> y dentro el archivo <code>_mixins.scss</code>:</p>
-<p><strong>Mixin responsive:</strong> Crea un mixin que te permita escribir media queries fácilmente. La idea es que en lugar de escribir "@media (min-width: 768px)" cada vez, puedas escribir "@include respond-to('md')" que es más legible. El mixin debe aceptar 'sm', 'md', 'lg', 'xl' y aplicar el breakpoint correspondiente.</p>
-<p><strong>Mixin truncar texto:</strong> Crea dos mixins útiles. Uno llamado "truncate" que corta texto en una línea con puntos suspensivos (usa overflow hidden, text-overflow ellipsis, white-space nowrap). Otro llamado "line-clamp" que acepta un número de líneas y corta el texto después de esas líneas (usa display -webkit-box, -webkit-line-clamp, -webkit-box-orient vertical).</p>
-<p><strong>Mixin aspect-ratio:</strong> Crea un mixin para mantener proporciones de elementos (útil para imágenes y videos). Debe aceptar ancho y alto, y calcular el padding-top correcto para mantener la proporción.</p>
-<p><strong>Mixin centrar:</strong> Crea mixins para centrar elementos. Uno con position absolute (center-absolute) y otro con flexbox (center-flex).</p>
+<p>Crea la carpeta <code>src/styles/01-tools/</code> y dentro el archivo <code>_mixins.scss</code>, con al menos 3 mixins reutilizables.</p>
 <h3 id="3-organizacion-de-archivos-itcss"><strong><em>3. Organización de archivos ITCSS</em></strong></h3>
-<p>Crea la estructura completa de carpetas en <code>src/styles/</code>:</p>
-<pre><code>/* Esto es un ejemplo, hay muchas estructuras así */
-styles/
-├── 00-settings/     (Variables globales)
-│   └── \_variables.scss
-├── 01-tools/        (Mixins y funciones)
-│   └── \_mixins.scss
-├── 02-generic/      (Reset CSS y normalize)
-│   └── \_reset.scss
-├── 03-elements/     (Estilos base de HTML)
-│   ├── \_html.scss
-│   ├── \_typography.scss
-│   └── \_links.scss
-├── 04-layout/       (Estructura de página)
-│   ├── \_grid.scss
-│   ├── \_container.scss
-│   └── \_spacing.scss
-├── 05-components/   (Componentes UI \* aquí irán tus componentes)
-│   └── (vacío por ahora, lo llenas en Fase 3\)
-├── 06-utilities/    (Clases utilitarias)
-│   └── \_utilities.scss
-└── styles.scss      (Archivo principal que importa todo)
-</code></pre>
-<p>En <code>styles.scss</code> importa todo en orden:</p>
-<pre><code class="language-css">@import '00-settings/variables';
-
-@import '01-tools/mixins';
-
-@import '02-generic/reset';
-
-@import '03-elements/html';
-
-@import '03-elements/typography';
-
-@import '03-elements/links';
-
-@import '04-layout/grid';
-
-@import '04-layout/container';
-
-@import '04-layout/spacing';
-
-@import '06-utilities/utilities';
-</code></pre>
+<ul>
+<li>Crea la estructura completa de carpetas en <code>src/styles/</code>.</li>
+<li>En <code>styles.scss</code> importa todo en orden</li>
+</ul>
 <p><strong>Importante:</strong> Este orden es crítico. Las variables primero, luego mixins, luego reset, y así sucesivamente aumentando la especificidad.</p>
 <h3 id="4-reset-css"><strong><em>4. Reset CSS</em></strong></h3>
 <p>En <code>02-generic/_reset.scss</code> crea un reset básico.

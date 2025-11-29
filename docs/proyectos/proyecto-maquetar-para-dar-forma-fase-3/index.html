@@ -453,26 +453,25 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Fases del proyecto">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fase-3-sistema-de-componentes-visuales" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-3-componentes-ui-basicos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fase 3: Sistema de componentes visuales
+        FASE 3: COMPONENTES UI BÁSICOS
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Fase 3: Sistema de componentes visuales">
+    <nav class="md-nav" aria-label="FASE 3: COMPONENTES UI BÁSICOS">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#tareas" class="md-nav__link">
+  <a href="#objetivos-de-la-fase" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tareas:
+        OBJETIVOS DE LA FASE
       
     </span>
   </a>
@@ -480,10 +479,99 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#entregables" class="md-nav__link">
+  <a href="#tareas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Entregables:
+        TAREAS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="TAREAS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-botones-app-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Botones (app-button)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-cards-app-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Cards (app-card)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-elementos-de-formulario-adicionales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Elementos de formulario adicionales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-navegacion-responsive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Navegación responsive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-elementos-de-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Elementos de feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-componentes-adicionales-opcionales-elige-segun-tiempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Componentes adicionales (OPCIONALES - elige según tiempo)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-style-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Style Guide
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-documentacion-en-documentacionmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Documentación en DOCUMENTACION.md
       
     </span>
   </a>
@@ -492,6 +580,17 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entregables-fase-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ENTREGABLES FASE 3
+      
+    </span>
+  </a>
   
 </li>
         
@@ -519,55 +618,132 @@
 
 
 
-  <h1>Proyecto maquetar para dar forma fase 3</h1>
-
 <h2 id="fases-del-proyecto"><strong>Fases del proyecto</strong></h2>
-<h3 id="fase-3-sistema-de-componentes-visuales"><strong>Fase 3: Sistema de componentes visuales</strong></h3>
-<p><strong>Criterios:</strong> RA2.g, RA2.e, RA2.f, RA1.f</p>
-<h4 id="tareas"><strong>Tareas:</strong></h4>
-<ol>
-<li><strong>Mínimo 8 componentes UI completos</strong></li>
-</ol>
-<p><strong>Obligatorios (5):</strong></p>
+<h1 id="fase-3-componentes-ui-basicos"><strong>FASE 3: COMPONENTES UI BÁSICOS</strong></h1>
+<p><strong>Criterios:</strong> RA2.g, RA2.e, RA2.f, RA1.f<br />
+<strong>Entrega:</strong> 18 de diciembre</p>
+<hr />
+<h2 id="objetivos-de-la-fase"><strong>OBJETIVOS DE LA FASE</strong></h2>
+<p>En esta fase crearás los componentes UI básicos que se reutilizarán en toda tu aplicación: botones, cards, elementos de formulario adicionales, navegación responsive, y elementos de feedback. Estos son los "bloques de construcción" que luego combinarás para crear páginas completas.</p>
+<p>La clave aquí es que cada componente debe tener todas sus variantes, todos sus tamaños, y todos sus estados (hover, focus, active, disabled). Un botón bien hecho no es solo un rectángulo azul, es un sistema completo: botón primary, secondary, ghost; tamaños small, medium, large; estados normal, hover, focus, active, disabled.</p>
+<p>También crearás un Style Guide: una página especial donde muestras TODOS tus componentes con TODAS sus variantes. Esto sirve como documentación visual y para testing rápido.</p>
+<hr />
+<h2 id="tareas"><strong>TAREAS</strong></h2>
+<h3 id="1-botones-app-button"><strong>1. Botones (app-button)</strong></h3>
+<p>Crea el componente usando <code>ng generate component components/shared/button</code>.</p>
+<p>Debe soportar:</p>
+<p><strong>Variantes (modificadores BEM):</strong>
+- <code>.button--primary</code> (color principal, para acciones principales)
+- <code>.button--secondary</code> (color secundario, para acciones secundarias)
+- <code>.button--ghost</code> (sin fondo, solo texto y borde opcional)
+- <code>.button--danger</code> (rojo, para acciones destructivas como eliminar)</p>
+<p><strong>Tamaños:</strong>
+- <code>.button--sm</code> (pequeño)
+- <code>.button--md</code> (mediano, por defecto)
+- <code>.button--lg</code> (grande)</p>
+<p><strong>Estados CSS:</strong>
+- <code>:hover</code> (cambio al pasar el mouse)
+- <code>:focus</code> (outline visible para navegación con teclado)
+- <code>:active</code> (efecto al hacer clic)
+- <code>[disabled]</code> o <code>.button--disabled</code> (botón no clickeable, opacidad reducida)</p>
+<h3 id="2-cards-app-card"><strong>2. Cards (app-card)</strong></h3>
+<p>Crea el componente usando <code>ng generate component components/shared/card</code>.</p>
+<p>Crea al menos dos variantes:</p>
+<p><strong>Variante básica:</strong>
+- Imagen (opcional)
+- Título
+- Descripción
+- Botón de acción (opcional)</p>
+<p><strong>Variante horizontal (OPCIONAL):</strong>
+- Imagen a la izquierda
+- Contenido a la derecha</p>
+<p>Debe incluir estados hover con transiciones (elevación de sombra, transformación).</p>
+<h3 id="3-elementos-de-formulario-adicionales"><strong>3. Elementos de formulario adicionales</strong></h3>
+<p>Además del <code>form-input</code> de Fase 2, crea:</p>
+<p><strong>Textarea (OBLIGATORIO):</strong>
+<code>ng generate component components/shared/form-textarea</code></p>
+<p>Similar a form-input pero con <code>&lt;textarea&gt;</code> en lugar de <code>&lt;input&gt;</code>.</p>
+<p><strong>Select (OBLIGATORIO):</strong>
+<code>ng generate component components/shared/form-select</code></p>
+<p>Dropdown con <code>&lt;select&gt;</code> y <code>&lt;option&gt;</code>. Debe incluir label asociado.</p>
+<p><strong>Checkbox (OPCIONAL):</strong>
+<code>ng generate component components/shared/form-checkbox</code></p>
+<p>Input tipo checkbox con label asociado.</p>
+<p><strong>Radio buttons (OPCIONAL):</strong>
+<code>ng generate component components/shared/form-radio-group</code></p>
+<p>Grupo de radio buttons del mismo name.</p>
+<h3 id="4-navegacion-responsive"><strong>4. Navegación responsive</strong></h3>
+<p><strong>Menú hamburguesa en header:</strong></p>
+<p>Añade a tu componente header de Fase 2:
+- Botón hamburguesa (visible solo en mobile)
+- Menú que se muestra/oculta al hacer clic
+- Navegación horizontal en desktop
+- Transiciones suaves</p>
+<p><strong>Breadcrumbs (OPCIONAL):</strong>
+<code>ng generate component components/shared/breadcrumbs</code></p>
+<p>Navegación de migas de pan con lista ordenada mostrando la ruta actual.</p>
+<h3 id="5-elementos-de-feedback"><strong>5. Elementos de feedback</strong></h3>
+<p><strong>Alerts (OBLIGATORIO):</strong>
+<code>ng generate component components/shared/alert</code></p>
+<p>Tipos mediante modificadores BEM:
+- <code>.alert--success</code> (verde, para confirmaciones)
+- <code>.alert--error</code> (rojo, para errores)
+- <code>.alert--warning</code> (naranja, para advertencias)
+- <code>.alert--info</code> (azul, para información)</p>
+<p>Debe poder cerrarse (botón X opcional).</p>
+<p><strong>Notificaciones/Toast (OPCIONAL):</strong>
+<code>ng generate component components/shared/notification</code></p>
+<p>Similar a alert pero con posición fixed (esquina de pantalla) y animaciones de entrada/salida.</p>
+<h3 id="6-componentes-adicionales-opcionales-elige-segun-tiempo"><strong>6. Componentes adicionales (OPCIONALES - elige según tiempo)</strong></h3>
+<p>Si terminas lo obligatorio y tienes tiempo, añade 1-3 de estos:</p>
+<p><strong>Modales:</strong>
+<code>ng generate component components/shared/modal</code></p>
+<p>Ventana superpuesta con overlay oscuro. Debe poder cerrarse con botón X y tecla ESC.</p>
+<p><strong>Tablas responsive:</strong>
+<code>ng generate component components/shared/data-table</code></p>
+<p>Tabla que en mobile se adapta (cards o scroll horizontal).</p>
+<p><strong>Badges:</strong>
+<code>ng generate component components/shared/badge</code></p>
+<p>Pequeñas etiquetas para estados, categorías, contadores.</p>
+<p><strong>Tabs:</strong>
+<code>ng generate component components/shared/tabs</code></p>
+<p>Sistema de pestañas para organizar contenido.</p>
+<p><strong>Paginación:</strong>
+<code>ng generate component components/shared/pagination</code></p>
+<p>Controles de paginación (anterior, siguiente, números de página).</p>
+<p><strong>Sistema de iconos:</strong></p>
+<p>Integra una librería de iconos (Heroicons, Font Awesome, Material Icons, Feather Icons) o crea componentes SVG propios.</p>
+<h3 id="7-style-guide"><strong>7. Style Guide</strong></h3>
+<p>Crea una página especial para mostrar todos tus componentes.</p>
+<p><code>ng generate component pages/style-guide</code></p>
+<p>En el HTML muestra:
+- TODOS los componentes creados
+- TODAS las variantes de cada componente
+- TODOS los tamaños
+- TODOS los estados</p>
+<p>Organiza por secciones: Botones, Cards, Formularios, Navegación, Feedback, etc.</p>
+<p>Añade una ruta en tu router de Angular para acceder a <code>/style-guide</code>.</p>
+<h3 id="8-documentacion-en-documentacionmd"><strong>8. Documentación en DOCUMENTACION.md</strong></h3>
+<p>Añade la <strong>Sección 3: Sistema de componentes UI</strong> a tu archivo <code>docs/DOCUMENTACION.md</code>.</p>
+<p>Esta sección debe incluir:</p>
+<p><strong>3.1 Componentes implementados:</strong> Lista TODOS los componentes creados. Para cada uno documenta:
+- Nombre del componente
+- Propósito
+- Variantes disponibles
+- Tamaños disponibles
+- Estados que maneja
+- Ejemplo de uso (código)</p>
+<p><strong>3.2 Nomenclatura y metodología:</strong> Muestra ejemplos reales de tu nomenclatura BEM aplicada en los componentes. Explica tu estrategia: qué es block vs element, cuándo usas modificadores vs clases de estado.</p>
+<p><strong>3.3 Style Guide:</strong> Incluye capturas de pantalla de tu página de Style Guide mostrando los componentes. Explica para qué sirve (documentación visual, testing, referencia).</p>
+<hr />
+<h2 id="entregables-fase-3"><strong>ENTREGABLES FASE 3</strong></h2>
 <ul>
-<li>Botones (variantes, tamaños, estados)</li>
-<li>Cards (2 variantes)</li>
-<li>Formularios (inputs, textarea, select, checkbox, radio)</li>
-<li>Navegación (header responsive, breadcrumbs)</li>
-<li>Feedback (alerts/notificaciones)</li>
-<li>
-<p><strong>Adicionales (elige 3):</strong></p>
-</li>
-<li>
-<p>Modales, Tablas responsive, Badges, Tabs, Paginación, Iconos</p>
-</li>
-<li>
-<p><strong>Estados completos por componente</strong></p>
-</li>
-<li>
-<p>hover, focus, active, disabled, error, loading</p>
-</li>
-<li>
-<p><strong>Style Guide estático</strong></p>
-</li>
-<li>
-<p>Página con todos los componentes y estados visibles</p>
-</li>
-<li>
-<p><strong>Sección en DOCUMENTACION.md: "3. Sistema de componentes UI"</strong></p>
-</li>
-<li>
-<p>Lista de componentes implementados</p>
-</li>
-<li>Nomenclatura y metodología aplicada</li>
-<li>Capturas del Style Guide</li>
-</ul>
-<h4 id="entregables"><strong>Entregables:</strong></h4>
-<ul>
-<li>[ ] 8+ componentes UI implementados</li>
-<li>[ ] SCSS por componente</li>
-<li>[ ] Style Guide funcional</li>
-<li>[ ] Sección 3 del DOCUMENTACION.md completada</li>
+<li>5 componentes obligatorios: botones, cards, textarea, select, alerts</li>
+<li>Navegación responsive (menú hamburguesa funcional)</li>
+<li>Componentes adicionales opcionales (según tiempo)</li>
+<li>Archivo SCSS por cada componente siguiendo BEM</li>
+<li>Style Guide funcional en <code>/style-guide</code></li>
+<li>Sección 3 del <code>docs/DOCUMENTACION.md</code> completada con capturas</li>
 </ul>
 
 
