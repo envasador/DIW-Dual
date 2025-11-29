@@ -3,6 +3,7 @@ hide:
   - navigation
 ---
 
+
 # **FASE 3: COMPONENTES UI BÁSICOS**
 
 **Criterios:** RA2.g, RA2.e, RA2.f, RA1.f  
