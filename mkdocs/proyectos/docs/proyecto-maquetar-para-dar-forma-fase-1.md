@@ -1,6 +1,6 @@
 ---
 hide:
-  * navigation
+  - navigation
 ---
 
 ## **Fases del proyecto**
